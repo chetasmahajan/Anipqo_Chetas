@@ -15,7 +15,7 @@
 using namespace std;
 class Node {
 	int id, parentId;
-	double cost, card;
+	float cost, card;
 	string name;
 	vector<string> argNames;
 public:

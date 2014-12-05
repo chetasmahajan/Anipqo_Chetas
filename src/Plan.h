@@ -274,6 +274,7 @@ public:
 	static Plan* optimize(string query, int foreignPlan, string foreignPlanStr = emptyStr, int *fpcErr = NULL)
 	{
 		Plan *plan = DBConn::getPlan(query, foreignPlanStr);
+		assert(plan != NULL);
 		int oldNumPlan = numPlans();
 		plan->setPlanNo(foreignPlan, fpcErr);
 		if(!foreignPlanStr.empty())

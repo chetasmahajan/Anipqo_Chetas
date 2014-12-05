@@ -1392,8 +1392,8 @@ void Nipqo_t::PQO(int argc, char *argv[])
 	DBConn::createObjs();		//Chetas- Replaced with above line.
 
 	//Chetas- Added for computing errors. **********************
-//	float allThresholds[] = {0.01, 0.05, 0.1, 0.2};		//Chetas- No Index
-	float allThresholds[] = {0.005};		//Chetas- No Index
+	float allThresholds[] = {0.01, 0.05, 0.1, 0.2};		//Chetas- No Index
+//	float allThresholds[] = {0.005};		//Chetas- No Index
 //	float allThresholds[] = {0.1, 0.2};					//Chetas- Index
 	string mode(argv[12]);
 
@@ -1438,14 +1438,14 @@ void Nipqo_t::PQO(int argc, char *argv[])
 			char *buf;
 
 			switch(i) {					//Chetas- No Index
-			case 0:	buf = "05";
-//			case 0:	buf = "1";
-//			break;
-//			case 1:	buf = "5";
-//			break;
-//			case 2:	buf = "10";
-//			break;
-//			case 3:	buf = "20";
+//			case 0:	buf = "05";
+			case 0:	buf = "1";
+			break;
+			case 1:	buf = "5";
+			break;
+			case 2:	buf = "10";
+			break;
+			case 3:	buf = "20";
 			}
 //			switch(i) {					//Chetas- Index
 //			case 0:	buf = "10";

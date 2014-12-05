@@ -145,7 +145,7 @@ Plan* DBConn::getPlan(string query, string foreignPlan)
 			char physicalOp[128], logicalOp[128], arguments[512];
 			SQLINTEGER indicator;
 			int id, parentId;
-			double cost, card;
+			float cost, card;
 			Node *node = NULL;
 			node = new Node();
 			assert(node);
@@ -248,7 +248,7 @@ Plan* DBConn::getPlan(string query, string foreignPlan)
 			}
 			else
 				goto Error;
-			ret = SQLGetData(stmtPlanAll, 9, SQL_C_DOUBLE, &card, sizeof(card), (SQLINTEGER *) &indicator);
+			ret = SQLGetData(stmtPlanAll, 9, SQL_C_FLOAT, &card, sizeof(card), (SQLINTEGER *) &indicator);
 			if(SQL_SUCCEEDED(ret)) {
 				if(indicator == SQL_NULL_DATA)
 					card = 0;
@@ -256,7 +256,7 @@ Plan* DBConn::getPlan(string query, string foreignPlan)
 			}
 			else
 				goto Error;
-			ret = SQLGetData(stmtPlanAll, 13, SQL_C_DOUBLE, &cost, sizeof(&cost), (SQLINTEGER *) &indicator);
+			ret = SQLGetData(stmtPlanAll, 13, SQL_C_FLOAT, &cost, sizeof(&cost), (SQLINTEGER *) &indicator);
 			if(SQL_SUCCEEDED(ret)) {
 				if(indicator == SQL_NULL_DATA)
 					cost = 0;
