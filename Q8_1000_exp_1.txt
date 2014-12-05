@@ -1,0 +1,2091 @@
+Partitioning Vertices: 
+[0 0 ] Plan Costs: Min Plan Costs: Threshold = 0.01
+[999 0 ] Plan Costs: Min Plan Costs: Threshold = 0.01
+[0 999 ] Plan Costs: Min Plan Costs: Threshold = 0.01
+[999 999 ] Plan Costs: Min Plan Costs: Threshold = 0.01
+
+Optimizing vertex [0 0 ] 
+New plan found, plan num: 1
+New optimal plan 1 is not co-optimal. Hence added to CSOP.
+
+different plan found while doing FPC.....................
+different plan found while doing FPC.....................
+Partitioning Vertices: 
+[0 0 ] Plan Costs: [P:1, C:86.2441] Min Plan Costs: [P:1, C:86.2441]  Optimized. Threshold = 0.01
+[999 0 ] Plan Costs: [P:1, C:86.2866] Min Plan Costs: [P:1, C:86.2866] Threshold = 0.01
+[0 999 ] Plan Costs: [P:1, C:1068.56] Min Plan Costs: [P:1, C:1068.56] Threshold = 0.01
+[999 999 ] Plan Costs: [P:1, C:3003.76] Min Plan Costs: [P:1, C:3003.76] Threshold = 0.01
+
+Optimizing vertex [999 0 ] 
+Got an suboptimal plan after optimizing vertex having optCost = 86.2879. Hahaha. Optimal plan is already known having mincost = 86.2866.//////////////////////////
+New plan found, plan num: 2
+New Optimal plan 2 of optCost 86.2866 is co-optimal with oldMinCost 86.2866 & hence not added to CSOP; no further processing of the vertex.
+
+Optimizing vertex [0 999 ] 
+New plan found, plan num: 3
+New optimal plan 3 is not co-optimal. Hence added to CSOP.
+
+different plan found while doing FPC.....................
+different plan found while doing FPC.....................
+pOptimizer_t::Optimize(Edge_t, PlanId_t) invocation # = 1
+In Rectangle_t::NumOptPlans (n_v = 2): [0, 1] [1, 1] 
+[0 999 ] [999 999 ] 
+[0 1 ] [1 1 ] 
+Active Plans: 1, 3, 
+numDistinctPlans: 2, optPlans: 1 3 
+Optimizing Rectangle(n_v = 2): [0, 1] [1, 1] 
+[0 999 ] [999 999 ] 
+[0 1 ] [1 1 ] 
+Active Plans: 1, 3, 
+numDistinctPlans: 2, optPlans: 1 3 
+Vertex 0, PlanCosts: [P:1, C:1068.56] [P:3, C:120.127] 
+Vertex 1, PlanCosts: [P:1, C:3003.76] [P:3, C:7961.08] 
+different plan found while doing FPC.....................
+different plan found while doing FPC.....................
+centreMinCost: 278.817, centreMaxCost: 1180.46
+CentrePt PlanCosts: [P:1, C:1180.46] [P:3, C:278.817] 
+CentrePointReal (Evaluated): [0.5 1 ] 
+[499 999 ] pDiffC: 3.23383
+
+
+Partitioning Rectangle: [0, 1] [1, 1] 
+[0 999 ] [999 999 ] 
+[0 1 ] [1 1 ] 
+Optimizing Rectangle(n_v = 2): [0, 0.5] [1, 1] 
+[0 999 ] [499 999 ] 
+[0 1 ] [0.5 1 ] 
+Active Plans: 1, 3, 
+numDistinctPlans: 1, optPlans: 3 
+Vertex 0, PlanCosts: [P:1, C:1068.56] [P:3, C:120.127] 
+Vertex 1, PlanCosts: [P:1, C:1180.46] [P:3, C:278.817] 
+Skipping this rectangle..................
+
+Optimizing Rectangle(n_v = 2): [0.5, 1] [1, 1] 
+[499 999 ] [999 999 ] 
+[0.5 1 ] [1 1 ] 
+Active Plans: 1, 3, 
+numDistinctPlans: 2, optPlans: 1 3 
+Vertex 0, PlanCosts: [P:1, C:1180.46] [P:3, C:278.817] 
+Vertex 1, PlanCosts: [P:1, C:3003.76] [P:3, C:7961.08] 
+different plan found while doing FPC.....................
+different plan found while doing FPC.....................
+centreMinCost: 1192.19, centreMaxCost: 1398.39
+CentrePt PlanCosts: [P:1, C:1398.39] [P:3, C:1192.19] 
+CentrePointReal (Evaluated): [0.75 1 ] 
+[749 999 ] pDiffC: 0.172959
+
+
+Partitioning Rectangle: [0.5, 1] [1, 1] 
+[499 999 ] [999 999 ] 
+[0.5 1 ] [1 1 ] 
+Optimizing Rectangle(n_v = 2): [0.5, 0.75] [1, 1] 
+[499 999 ] [749 999 ] 
+[0.5 1 ] [0.75 1 ] 
+Active Plans: 1, 3, 
+numDistinctPlans: 1, optPlans: 3 
+Vertex 0, PlanCosts: [P:1, C:1180.46] [P:3, C:278.817] 
+Vertex 1, PlanCosts: [P:1, C:1398.39] [P:3, C:1192.19] 
+Skipping this rectangle..................
+
+Optimizing Rectangle(n_v = 2): [0.75, 1] [1, 1] 
+[749 999 ] [999 999 ] 
+[0.75 1 ] [1 1 ] 
+Active Plans: 1, 3, 
+numDistinctPlans: 2, optPlans: 1 3 
+Vertex 0, PlanCosts: [P:1, C:1398.39] [P:3, C:1192.19] 
+Vertex 1, PlanCosts: [P:1, C:3003.76] [P:3, C:7961.08] 
+different plan found while doing FPC.....................
+different plan found while doing FPC.....................
+centreMinCost: 1829.83, centreMaxCost: 3011.24
+CentrePt PlanCosts: [P:1, C:1829.83] [P:3, C:3011.24] 
+CentrePointReal (Evaluated): [0.875 1 ] 
+[874 999 ] pDiffC: 0.645638
+
+
+Partitioning Rectangle: [0.75, 1] [1, 1] 
+[749 999 ] [999 999 ] 
+[0.75 1 ] [1 1 ] 
+Optimizing Rectangle(n_v = 2): [0.75, 0.875] [1, 1] 
+[749 999 ] [874 999 ] 
+[0.75 1 ] [0.875 1 ] 
+Active Plans: 1, 3, 
+numDistinctPlans: 2, optPlans: 1 3 
+Vertex 0, PlanCosts: [P:1, C:1398.39] [P:3, C:1192.19] 
+Vertex 1, PlanCosts: [P:1, C:1829.83] [P:3, C:3011.24] 
+different plan found while doing FPC.....................
+different plan found while doing FPC.....................
+centreMinCost: 1562.69, centreMaxCost: 1884.87
+CentrePt PlanCosts: [P:1, C:1562.69] [P:3, C:1884.87] 
+CentrePointReal (Evaluated): [0.8125 1 ] 
+[812 999 ] pDiffC: 0.206171
+
+
+Partitioning Rectangle: [0.75, 0.875] [1, 1] 
+[749 999 ] [874 999 ] 
+[0.75 1 ] [0.875 1 ] 
+Optimizing Rectangle(n_v = 2): [0.75, 0.8125] [1, 1] 
+[749 999 ] [812 999 ] 
+[0.75 1 ] [0.8125 1 ] 
+Active Plans: 1, 3, 
+numDistinctPlans: 2, optPlans: 1 3 
+Vertex 0, PlanCosts: [P:1, C:1398.39] [P:3, C:1192.19] 
+Vertex 1, PlanCosts: [P:1, C:1562.69] [P:3, C:1884.87] 
+different plan found while doing FPC.....................
+different plan found while doing FPC.....................
+centreMinCost: 1471.43, centreMaxCost: 1500.11
+CentrePt PlanCosts: [P:1, C:1471.43] [P:3, C:1500.11] 
+CentrePointReal (Evaluated): [0.78125 1 ] 
+[781 999 ] pDiffC: 0.0194937
+
+
+Partitioning Rectangle: [0.75, 0.8125] [1, 1] 
+[749 999 ] [812 999 ] 
+[0.75 1 ] [0.8125 1 ] 
+Optimizing Rectangle(n_v = 2): [0.75, 0.78125] [1, 1] 
+[749 999 ] [781 999 ] 
+[0.75 1 ] [0.78125 1 ] 
+Active Plans: 1, 3, 
+numDistinctPlans: 2, optPlans: 1 3 
+Vertex 0, PlanCosts: [P:1, C:1398.39] [P:3, C:1192.19] 
+Vertex 1, PlanCosts: [P:1, C:1471.43] [P:3, C:1500.11] 
+different plan found while doing FPC.....................
+different plan found while doing FPC.....................
+centreMinCost: 1336.29, centreMaxCost: 1432.57
+CentrePt PlanCosts: [P:1, C:1432.57] [P:3, C:1336.29] 
+CentrePointReal (Evaluated): [0.765625 1 ] 
+[765 999 ] pDiffC: 0.0720533
+
+
+Partitioning Rectangle: [0.75, 0.78125] [1, 1] 
+[749 999 ] [781 999 ] 
+[0.75 1 ] [0.78125 1 ] 
+Optimizing Rectangle(n_v = 2): [0.75, 0.765625] [1, 1] 
+[749 999 ] [765 999 ] 
+[0.75 1 ] [0.765625 1 ] 
+Active Plans: 1, 3, 
+numDistinctPlans: 1, optPlans: 3 
+Vertex 0, PlanCosts: [P:1, C:1398.39] [P:3, C:1192.19] 
+Vertex 1, PlanCosts: [P:1, C:1432.57] [P:3, C:1336.29] 
+Skipping this rectangle..................
+
+Optimizing Rectangle(n_v = 2): [0.765625, 0.78125] [1, 1] 
+[765 999 ] [781 999 ] 
+[0.765625 1 ] [0.78125 1 ] 
+Active Plans: 1, 3, 
+numDistinctPlans: 2, optPlans: 1 3 
+Vertex 0, PlanCosts: [P:1, C:1432.57] [P:3, C:1336.29] 
+Vertex 1, PlanCosts: [P:1, C:1471.43] [P:3, C:1500.11] 
+different plan found while doing FPC.....................
+different plan found while doing FPC.....................
+centreMinCost: 1415.83, centreMaxCost: 1451.44
+CentrePt PlanCosts: [P:1, C:1451.44] [P:3, C:1415.83] 
+CentrePointReal (Evaluated): [0.773438 1 ] 
+[773 999 ] pDiffC: 0.0251511
+
+
+Partitioning Rectangle: [0.765625, 0.78125] [1, 1] 
+[765 999 ] [781 999 ] 
+[0.765625 1 ] [0.78125 1 ] 
+Optimizing Rectangle(n_v = 2): [0.765625, 0.773438] [1, 1] 
+[765 999 ] [773 999 ] 
+[0.765625 1 ] [0.773438 1 ] 
+Active Plans: 1, 3, 
+numDistinctPlans: 1, optPlans: 3 
+Vertex 0, PlanCosts: [P:1, C:1432.57] [P:3, C:1336.29] 
+Vertex 1, PlanCosts: [P:1, C:1451.44] [P:3, C:1415.83] 
+Skipping this rectangle..................
+
+Optimizing Rectangle(n_v = 2): [0.773438, 0.78125] [1, 1] 
+[773 999 ] [781 999 ] 
+[0.773438 1 ] [0.78125 1 ] 
+Active Plans: 1, 3, 
+numDistinctPlans: 2, optPlans: 1 3 
+Vertex 0, PlanCosts: [P:1, C:1451.44] [P:3, C:1415.83] 
+Vertex 1, PlanCosts: [P:1, C:1471.43] [P:3, C:1500.11] 
+different plan found while doing FPC.....................
+different plan found while doing FPC.....................
+centreMinCost: 1457.38, centreMaxCost: 1461.29
+CentrePt PlanCosts: [P:1, C:1461.29] [P:3, C:1457.38] 
+CentrePointReal (Evaluated): [0.777344 1 ] 
+[777 999 ] pDiffC: 0.00268291
+
+Partitioning Vertices: 
+[0 0 ] Plan Costs: [P:1, C:86.2441] [P:3, C:86.4365] Min Plan Costs: [P:1, C:86.2441] [P:3, C:86.4365]  Optimized. Threshold = 0.01
+[999 0 ] Plan Costs: [P:1, C:86.2866] Min Plan Costs: [P:1, C:86.2866]  Optimized. Threshold = 0.01
+[0 999 ] Plan Costs: [P:1, C:1068.56] [P:3, C:120.127] Min Plan Costs: [P:3, C:120.127]  Optimized. Threshold = 0.01
+[999 999 ] Plan Costs: [P:1, C:3003.76] [P:3, C:7961.08] Min Plan Costs: [P:1, C:3003.76] Threshold = 0.01
+[777 999 ] Plan Costs: [P:1, C:1461.29] [P:3, C:1457.38] Min Plan Costs: [P:1, C:1461.29] [P:3, C:1457.38] Threshold = 0.01
+
+Optimizing vertex [999 999 ] 
+New plan found, plan num: 4
+New optimal plan 4 is not co-optimal. Hence added to CSOP.
+
+pOptimizer_t::Optimize(Edge_t, PlanId_t) invocation # = 2
+In Rectangle_t::NumOptPlans (n_v = 2): [1, 1] [0, 1] 
+[999 0 ] [999 999 ] 
+[1 0 ] [1 1 ] 
+Active Plans: 1, 4, 
+numDistinctPlans: 2, optPlans: 1 4 
+Optimizing Rectangle(n_v = 2): [1, 1] [0, 1] 
+[999 0 ] [999 999 ] 
+[1 0 ] [1 1 ] 
+Active Plans: 1, 4, 
+numDistinctPlans: 2, optPlans: 1 4 
+Vertex 0, PlanCosts: [P:1, C:86.2866] [P:4, C:113.07] 
+Vertex 1, PlanCosts: [P:1, C:3003.76] [P:3, C:7961.08] [P:4, C:136.751] 
+different plan found while doing FPC.....................
+centreMinCost: 113.876, centreMaxCost: 260.774
+CentrePt PlanCosts: [P:1, C:260.774] [P:4, C:113.876] 
+CentrePointReal (Evaluated): [1 0.5 ] 
+[999 499 ] pDiffC: 1.28997
+
+
+Partitioning Rectangle: [1, 1] [0, 1] 
+[999 0 ] [999 999 ] 
+[1 0 ] [1 1 ] 
+Optimizing Rectangle(n_v = 2): [1, 1] [0, 0.5] 
+[999 0 ] [999 499 ] 
+[1 0 ] [1 0.5 ] 
+Active Plans: 1, 4, 
+numDistinctPlans: 2, optPlans: 1 4 
+Vertex 0, PlanCosts: [P:1, C:86.2866] [P:4, C:113.07] 
+Vertex 1, PlanCosts: [P:1, C:260.774] [P:4, C:113.876] 
+different plan found while doing FPC.....................
+centreMinCost: 113.22, centreMaxCost: 141.804
+CentrePt PlanCosts: [P:1, C:141.804] [P:4, C:113.22] 
+CentrePointReal (Evaluated): [1 0.25 ] 
+[999 249 ] pDiffC: 0.252468
+
+
+Partitioning Rectangle: [1, 1] [0, 0.5] 
+[999 0 ] [999 499 ] 
+[1 0 ] [1 0.5 ] 
+Optimizing Rectangle(n_v = 2): [1, 1] [0, 0.25] 
+[999 0 ] [999 249 ] 
+[1 0 ] [1 0.25 ] 
+Active Plans: 1, 4, 
+numDistinctPlans: 2, optPlans: 1 4 
+Vertex 0, PlanCosts: [P:1, C:86.2866] [P:4, C:113.07] 
+Vertex 1, PlanCosts: [P:1, C:141.804] [P:4, C:113.22] 
+different plan found while doing FPC.....................
+centreMinCost: 107.463, centreMaxCost: 113.157
+CentrePt PlanCosts: [P:1, C:107.463] [P:4, C:113.157] 
+CentrePointReal (Evaluated): [1 0.125 ] 
+[999 124 ] pDiffC: 0.0529893
+
+
+Partitioning Rectangle: [1, 1] [0, 0.25] 
+[999 0 ] [999 249 ] 
+[1 0 ] [1 0.25 ] 
+Optimizing Rectangle(n_v = 2): [1, 1] [0, 0.125] 
+[999 0 ] [999 124 ] 
+[1 0 ] [1 0.125 ] 
+Active Plans: 1, 4, 
+numDistinctPlans: 1, optPlans: 1 
+Vertex 0, PlanCosts: [P:1, C:86.2866] [P:4, C:113.07] 
+Vertex 1, PlanCosts: [P:1, C:107.463] [P:4, C:113.157] 
+Skipping this rectangle..................
+
+Optimizing Rectangle(n_v = 2): [1, 1] [0.125, 0.25] 
+[999 124 ] [999 249 ] 
+[1 0.125 ] [1 0.25 ] 
+Active Plans: 1, 4, 
+numDistinctPlans: 2, optPlans: 1 4 
+Vertex 0, PlanCosts: [P:1, C:107.463] [P:4, C:113.157] 
+Vertex 1, PlanCosts: [P:1, C:141.804] [P:4, C:113.22] 
+different plan found while doing FPC.....................
+centreMinCost: 113.181, centreMaxCost: 122.855
+CentrePt PlanCosts: [P:1, C:122.855] [P:4, C:113.181] 
+CentrePointReal (Evaluated): [1 0.1875 ] 
+[999 187 ] pDiffC: 0.0854683
+
+
+Partitioning Rectangle: [1, 1] [0.125, 0.25] 
+[999 124 ] [999 249 ] 
+[1 0.125 ] [1 0.25 ] 
+Optimizing Rectangle(n_v = 2): [1, 1] [0.125, 0.1875] 
+[999 124 ] [999 187 ] 
+[1 0.125 ] [1 0.1875 ] 
+Active Plans: 1, 4, 
+numDistinctPlans: 2, optPlans: 1 4 
+Vertex 0, PlanCosts: [P:1, C:107.463] [P:4, C:113.157] 
+Vertex 1, PlanCosts: [P:1, C:122.855] [P:4, C:113.181] 
+different plan found while doing FPC.....................
+centreMinCost: 113.168, centreMaxCost: 114.827
+CentrePt PlanCosts: [P:1, C:114.827] [P:4, C:113.168] 
+CentrePointReal (Evaluated): [1 0.15625 ] 
+[999 156 ] pDiffC: 0.0146642
+
+
+Partitioning Rectangle: [1, 1] [0.125, 0.1875] 
+[999 124 ] [999 187 ] 
+[1 0.125 ] [1 0.1875 ] 
+Optimizing Rectangle(n_v = 2): [1, 1] [0.125, 0.15625] 
+[999 124 ] [999 156 ] 
+[1 0.125 ] [1 0.15625 ] 
+Active Plans: 1, 4, 
+numDistinctPlans: 2, optPlans: 1 4 
+Vertex 0, PlanCosts: [P:1, C:107.463] [P:4, C:113.157] 
+Vertex 1, PlanCosts: [P:1, C:114.827] [P:4, C:113.168] 
+different plan found while doing FPC.....................
+centreMinCost: 111.032, centreMaxCost: 113.162
+CentrePt PlanCosts: [P:1, C:111.032] [P:4, C:113.162] 
+CentrePointReal (Evaluated): [1 0.140625 ] 
+[999 140 ] pDiffC: 0.0191858
+
+
+Partitioning Rectangle: [1, 1] [0.125, 0.15625] 
+[999 124 ] [999 156 ] 
+[1 0.125 ] [1 0.15625 ] 
+Optimizing Rectangle(n_v = 2): [1, 1] [0.125, 0.140625] 
+[999 124 ] [999 140 ] 
+[1 0.125 ] [1 0.140625 ] 
+Active Plans: 1, 4, 
+numDistinctPlans: 1, optPlans: 1 
+Vertex 0, PlanCosts: [P:1, C:107.463] [P:4, C:113.157] 
+Vertex 1, PlanCosts: [P:1, C:111.032] [P:4, C:113.162] 
+Skipping this rectangle..................
+
+Optimizing Rectangle(n_v = 2): [1, 1] [0.140625, 0.15625] 
+[999 140 ] [999 156 ] 
+[1 0.140625 ] [1 0.15625 ] 
+Active Plans: 1, 4, 
+numDistinctPlans: 2, optPlans: 1 4 
+Vertex 0, PlanCosts: [P:1, C:111.032] [P:4, C:113.162] 
+Vertex 1, PlanCosts: [P:1, C:114.827] [P:4, C:113.168] 
+different plan found while doing FPC.....................
+centreMinCost: 112.901, centreMaxCost: 113.165
+CentrePt PlanCosts: [P:1, C:112.901] [P:4, C:113.165] 
+CentrePointReal (Evaluated): [1 0.148438 ] 
+[999 148 ] pDiffC: 0.00233806
+
+pOptimizer_t::Optimize(Edge_t, PlanId_t) invocation # = 3
+In Rectangle_t::NumOptPlans (n_v = 4): [0, 0.777344] [0, 1] 
+[0 0 ] [777 0 ] [0 999 ] [777 999 ] 
+[0 0 ] [0.777344 0 ] [0 1 ] [0.777344 1 ] 
+Active Plans: 1, 3, 4, 
+different plan found while doing FPC.....................
+numDistinctPlans: 3, optPlans: 1 3 4 
+Optimizing Rectangle(n_v = 4): [0, 0.777344] [0, 1] 
+[0 0 ] [777 0 ] [0 999 ] [777 999 ] 
+[0 0 ] [0.777344 0 ] [0 1 ] [0.777344 1 ] 
+Active Plans: 1, 3, 4, 
+numDistinctPlans: 3, optPlans: 1 3 4 
+Vertex 0, PlanCosts: [P:1, C:86.2441] [P:3, C:86.4365] [P:4, C:113.049] 
+Vertex 1, PlanCosts: [P:1, C:86.2866] [P:3, C:86.7758] [P:4, C:113.052] 
+Vertex 2, PlanCosts: [P:1, C:1068.56] [P:3, C:120.127] [P:4, C:135.371] 
+Vertex 3, PlanCosts: [P:1, C:1461.29] [P:3, C:1457.38] [P:4, C:137.015] 
+different plan found while doing FPC.....................
+different plan found while doing FPC.....................
+centreMinCost: 90.7812, centreMaxCost: 113.853
+CentrePt PlanCosts: [P:1, C:109.154] [P:3, C:90.7812] [P:4, C:113.853] 
+CentrePointReal (Evaluated): [0.388672 0.5 ] 
+[388 499 ] pDiffC: 0.254151
+
+
+Partitioning Rectangle: [0, 0.777344] [0, 1] 
+[0 0 ] [777 0 ] [0 999 ] [777 999 ] 
+[0 0 ] [0.777344 0 ] [0 1 ] [0.777344 1 ] 
+Optimizing Rectangle(n_v = 4): [0, 0.388672] [0, 1] 
+[0 0 ] [388 0 ] [0 999 ] [388 999 ] 
+[0 0 ] [0.388672 0 ] [0 1 ] [0.388672 1 ] 
+Active Plans: 1, 3, 4, 
+different plan found while doing FPC.....................
+different plan found while doing FPC.....................
+different plan found while doing FPC.....................
+numDistinctPlans: 3, optPlans: 1 3 4 
+Vertex 0, PlanCosts: [P:1, C:86.2441] [P:3, C:86.4365] [P:4, C:113.049] 
+Vertex 1, PlanCosts: [P:1, C:86.2866] [P:3, C:86.4913] [P:4, C:113.049] 
+Vertex 2, PlanCosts: [P:1, C:1068.56] [P:3, C:120.127] [P:4, C:135.371] 
+Vertex 3, PlanCosts: [P:1, C:1165.7] [P:3, C:194.869] [P:4, C:135.371] 
+different plan found while doing FPC.....................
+different plan found while doing FPC.....................
+centreMinCost: 87.5905, centreMaxCost: 113.852
+CentrePt PlanCosts: [P:1, C:104.854] [P:3, C:87.5905] [P:4, C:113.852] 
+CentrePointReal (Evaluated): [0.194336 0.5 ] 
+[194 499 ] pDiffC: 0.299821
+
+
+Partitioning Rectangle: [0, 0.388672] [0, 1] 
+[0 0 ] [388 0 ] [0 999 ] [388 999 ] 
+[0 0 ] [0.388672 0 ] [0 1 ] [0.388672 1 ] 
+Optimizing Rectangle(n_v = 4): [0, 0.388672] [0, 0.5] 
+[0 0 ] [388 0 ] [0 499 ] [388 499 ] 
+[0 0 ] [0.388672 0 ] [0 0.5 ] [0.388672 0.5 ] 
+Active Plans: 1, 3, 4, 
+different plan found while doing FPC.....................
+different plan found while doing FPC.....................
+numDistinctPlans: 2, optPlans: 1 3 
+Vertex 0, PlanCosts: [P:1, C:86.2441] [P:3, C:86.4365] [P:4, C:113.049] 
+Vertex 1, PlanCosts: [P:1, C:86.2866] [P:3, C:86.4913] [P:4, C:113.049] 
+Vertex 2, PlanCosts: [P:1, C:104.079] [P:3, C:87.057] [P:4, C:113.852] 
+Vertex 3, PlanCosts: [P:1, C:109.154] [P:3, C:90.7812] [P:4, C:113.853] 
+Skipping this rectangle..................
+
+Optimizing Rectangle(n_v = 4): [0, 0.388672] [0.5, 1] 
+[0 499 ] [388 499 ] [0 999 ] [388 999 ] 
+[0 0.5 ] [0.388672 0.5 ] [0 1 ] [0.388672 1 ] 
+Active Plans: 1, 3, 4, 
+numDistinctPlans: 2, optPlans: 3 4 
+Vertex 0, PlanCosts: [P:1, C:104.079] [P:3, C:87.057] [P:4, C:113.852] 
+Vertex 1, PlanCosts: [P:1, C:109.154] [P:3, C:90.7812] [P:4, C:113.853] 
+Vertex 2, PlanCosts: [P:1, C:1068.56] [P:3, C:120.127] [P:4, C:135.371] 
+Vertex 3, PlanCosts: [P:1, C:1165.7] [P:3, C:194.869] [P:4, C:135.371] 
+Skipping this rectangle..................
+
+Optimizing Rectangle(n_v = 4): [0.388672, 0.777344] [0, 1] 
+[388 0 ] [777 0 ] [388 999 ] [777 999 ] 
+[0.388672 0 ] [0.777344 0 ] [0.388672 1 ] [0.777344 1 ] 
+Active Plans: 1, 3, 4, 
+numDistinctPlans: 3, optPlans: 1 3 4 
+Vertex 0, PlanCosts: [P:1, C:86.2866] [P:3, C:86.4913] [P:4, C:113.049] 
+Vertex 1, PlanCosts: [P:1, C:86.2866] [P:3, C:86.7758] [P:4, C:113.052] 
+Vertex 2, PlanCosts: [P:1, C:1165.7] [P:3, C:194.869] [P:4, C:135.371] 
+Vertex 3, PlanCosts: [P:1, C:1461.29] [P:3, C:1457.38] [P:4, C:137.015] 
+different plan found while doing FPC.....................
+different plan found while doing FPC.....................
+centreMinCost: 103.588, centreMaxCost: 125.685
+CentrePt PlanCosts: [P:1, C:125.685] [P:3, C:103.588] [P:4, C:113.853] 
+CentrePointReal (Evaluated): [0.583008 0.5 ] 
+[583 499 ] pDiffC: 0.213316
+
+
+Partitioning Rectangle: [0.388672, 0.777344] [0, 1] 
+[388 0 ] [777 0 ] [388 999 ] [777 999 ] 
+[0.388672 0 ] [0.777344 0 ] [0.388672 1 ] [0.777344 1 ] 
+Optimizing Rectangle(n_v = 4): [0.388672, 0.777344] [0, 0.5] 
+[388 0 ] [777 0 ] [388 499 ] [777 499 ] 
+[0.388672 0 ] [0.777344 0 ] [0.388672 0.5 ] [0.777344 0.5 ] 
+Active Plans: 1, 3, 4, 
+different plan found while doing FPC.....................
+different plan found while doing FPC.....................
+numDistinctPlans: 3, optPlans: 1 3 4 
+Vertex 0, PlanCosts: [P:1, C:86.2866] [P:3, C:86.4913] [P:4, C:113.049] 
+Vertex 1, PlanCosts: [P:1, C:86.2866] [P:3, C:86.7758] [P:4, C:113.052] 
+Vertex 2, PlanCosts: [P:1, C:109.154] [P:3, C:90.7812] [P:4, C:113.853] 
+Vertex 3, PlanCosts: [P:1, C:167.826] [P:3, C:138.803] [P:4, C:113.859] 
+different plan found while doing FPC.....................
+different plan found while doing FPC.....................
+centreMinCost: 89.7271, centreMaxCost: 113.197
+CentrePt PlanCosts: [P:1, C:93.1539] [P:3, C:89.7271] [P:4, C:113.197] 
+CentrePointReal (Evaluated): [0.583008 0.25 ] 
+[583 249 ] pDiffC: 0.261575
+
+
+Partitioning Rectangle: [0.388672, 0.777344] [0, 0.5] 
+[388 0 ] [777 0 ] [388 499 ] [777 499 ] 
+[0.388672 0 ] [0.777344 0 ] [0.388672 0.5 ] [0.777344 0.5 ] 
+Optimizing Rectangle(n_v = 4): [0.388672, 0.583008] [0, 0.5] 
+[388 0 ] [583 0 ] [388 499 ] [583 499 ] 
+[0.388672 0 ] [0.583008 0 ] [0.388672 0.5 ] [0.583008 0.5 ] 
+Active Plans: 1, 3, 4, 
+different plan found while doing FPC.....................
+numDistinctPlans: 2, optPlans: 1 3 
+Vertex 0, PlanCosts: [P:1, C:86.2866] [P:3, C:86.4913] [P:4, C:113.049] 
+Vertex 1, PlanCosts: [P:1, C:86.2866] [P:3, C:86.5407] [P:4, C:113.049] 
+Vertex 2, PlanCosts: [P:1, C:109.154] [P:3, C:90.7812] [P:4, C:113.853] 
+Vertex 3, PlanCosts: [P:1, C:125.685] [P:3, C:103.588] [P:4, C:113.853] 
+Skipping this rectangle..................
+
+Optimizing Rectangle(n_v = 4): [0.583008, 0.777344] [0, 0.5] 
+[583 0 ] [777 0 ] [583 499 ] [777 499 ] 
+[0.583008 0 ] [0.777344 0 ] [0.583008 0.5 ] [0.777344 0.5 ] 
+Active Plans: 1, 3, 4, 
+numDistinctPlans: 3, optPlans: 1 3 4 
+Vertex 0, PlanCosts: [P:1, C:86.2866] [P:3, C:86.5407] [P:4, C:113.049] 
+Vertex 1, PlanCosts: [P:1, C:86.2866] [P:3, C:86.7758] [P:4, C:113.052] 
+Vertex 2, PlanCosts: [P:1, C:125.685] [P:3, C:103.588] [P:4, C:113.853] 
+Vertex 3, PlanCosts: [P:1, C:167.826] [P:3, C:138.803] [P:4, C:113.859] 
+different plan found while doing FPC.....................
+different plan found while doing FPC.....................
+centreMinCost: 93.3491, centreMaxCost: 113.199
+CentrePt PlanCosts: [P:1, C:97.8785] [P:3, C:93.3491] [P:4, C:113.199] 
+CentrePointReal (Evaluated): [0.680176 0.25 ] 
+[680 249 ] pDiffC: 0.212645
+
+
+Partitioning Rectangle: [0.583008, 0.777344] [0, 0.5] 
+[583 0 ] [777 0 ] [583 499 ] [777 499 ] 
+[0.583008 0 ] [0.777344 0 ] [0.583008 0.5 ] [0.777344 0.5 ] 
+Optimizing Rectangle(n_v = 4): [0.583008, 0.777344] [0, 0.25] 
+[583 0 ] [777 0 ] [583 249 ] [777 249 ] 
+[0.583008 0 ] [0.777344 0 ] [0.583008 0.25 ] [0.777344 0.25 ] 
+Active Plans: 1, 3, 4, 
+different plan found while doing FPC.....................
+different plan found while doing FPC.....................
+numDistinctPlans: 2, optPlans: 1 3 
+Vertex 0, PlanCosts: [P:1, C:86.2866] [P:3, C:86.5407] [P:4, C:113.049] 
+Vertex 1, PlanCosts: [P:1, C:86.2866] [P:3, C:86.7758] [P:4, C:113.052] 
+Vertex 2, PlanCosts: [P:1, C:93.1539] [P:3, C:89.7271] [P:4, C:113.197] 
+Vertex 3, PlanCosts: [P:1, C:106.836] [P:3, C:100.405] [P:4, C:113.202] 
+Skipping this rectangle..................
+
+Optimizing Rectangle(n_v = 4): [0.583008, 0.777344] [0.25, 0.5] 
+[583 249 ] [777 249 ] [583 499 ] [777 499 ] 
+[0.583008 0.25 ] [0.777344 0.25 ] [0.583008 0.5 ] [0.777344 0.5 ] 
+Active Plans: 1, 3, 4, 
+numDistinctPlans: 2, optPlans: 3 4 
+Vertex 0, PlanCosts: [P:1, C:93.1539] [P:3, C:89.7271] [P:4, C:113.197] 
+Vertex 1, PlanCosts: [P:1, C:106.836] [P:3, C:100.405] [P:4, C:113.202] 
+Vertex 2, PlanCosts: [P:1, C:125.685] [P:3, C:103.588] [P:4, C:113.853] 
+Vertex 3, PlanCosts: [P:1, C:167.826] [P:3, C:138.803] [P:4, C:113.859] 
+Skipping this rectangle..................
+
+Optimizing Rectangle(n_v = 4): [0.388672, 0.777344] [0.5, 1] 
+[388 499 ] [777 499 ] [388 999 ] [777 999 ] 
+[0.388672 0.5 ] [0.777344 0.5 ] [0.388672 1 ] [0.777344 1 ] 
+Active Plans: 1, 3, 4, 
+numDistinctPlans: 2, optPlans: 3 4 
+Vertex 0, PlanCosts: [P:1, C:109.154] [P:3, C:90.7812] [P:4, C:113.853] 
+Vertex 1, PlanCosts: [P:1, C:167.826] [P:3, C:138.803] [P:4, C:113.859] 
+Vertex 2, PlanCosts: [P:1, C:1165.7] [P:3, C:194.869] [P:4, C:135.371] 
+Vertex 3, PlanCosts: [P:1, C:1461.29] [P:3, C:1457.38] [P:4, C:137.015] 
+Skipping this rectangle..................
+
+In Rectangle_t::NumOptPlans (n_v = 4): [0, 0.777344] [0, 1] 
+[0 0 ] [777 0 ] [0 999 ] [777 999 ] 
+[0 0 ] [0.777344 0 ] [0 1 ] [0.777344 1 ] 
+Active Plans: 1, 3, 4, 
+numDistinctPlans: 3, optPlans: 1 3 4 
+$$$$$$$$$$ Error: Couldnt locate the new partitioning vertex. $$$$$$$$$$$$
+
+Attempting BIG rectangle
+[0, 1] [0, 1] 
+[0 0 ] [999 0 ] [0 999 ] [999 999 ] 
+[0 0 ] [1 0 ] [0 1 ] [1 1 ] 
+In Rectangle_t::NumOptPlans (n_v = 4): [0, 1] [0, 1] 
+[0 0 ] [999 0 ] [0 999 ] [999 999 ] 
+[0 0 ] [1 0 ] [0 1 ] [1 1 ] 
+Active Plans: 1, 3, 4, 
+different plan found while doing FPC.....................
+numDistinctPlans: 3, optPlans: 1 3 4 
+Optimizing Rectangle(n_v = 4): [0, 1] [0, 1] 
+[0 0 ] [999 0 ] [0 999 ] [999 999 ] 
+[0 0 ] [1 0 ] [0 1 ] [1 1 ] 
+Active Plans: 1, 3, 4, 
+numDistinctPlans: 3, optPlans: 1 3 4 
+Vertex 0, PlanCosts: [P:1, C:86.2441] [P:3, C:86.4365] [P:4, C:113.049] 
+Vertex 1, PlanCosts: [P:1, C:86.2866] [P:3, C:88.2545] [P:4, C:113.07] 
+Vertex 2, PlanCosts: [P:1, C:1068.56] [P:3, C:120.127] [P:4, C:135.371] 
+Vertex 3, PlanCosts: [P:1, C:3003.76] [P:3, C:7961.08] [P:4, C:136.751] 
+different plan found while doing FPC.....................
+different plan found while doing FPC.....................
+centreMinCost: 96.0737, centreMaxCost: 116.079
+CentrePt PlanCosts: [P:1, C:116.079] [P:3, C:96.0737] [P:4, C:113.852] 
+CentrePointReal (Evaluated): [0.5 0.5 ] 
+[499 499 ] pDiffC: 0.208228
+
+
+Partitioning Rectangle: [0, 1] [0, 1] 
+[0 0 ] [999 0 ] [0 999 ] [999 999 ] 
+[0 0 ] [1 0 ] [0 1 ] [1 1 ] 
+Optimizing Rectangle(n_v = 4): [0, 0.5] [0, 1] 
+[0 0 ] [499 0 ] [0 999 ] [499 999 ] 
+[0 0 ] [0.5 0 ] [0 1 ] [0.5 1 ] 
+Active Plans: 1, 3, 4, 
+different plan found while doing FPC.....................
+different plan found while doing FPC.....................
+different plan found while doing FPC.....................
+numDistinctPlans: 3, optPlans: 1 3 4 
+Vertex 0, PlanCosts: [P:1, C:86.2441] [P:3, C:86.4365] [P:4, C:113.049] 
+Vertex 1, PlanCosts: [P:1, C:86.2866] [P:3, C:86.51] [P:4, C:113.049] 
+Vertex 2, PlanCosts: [P:1, C:1068.56] [P:3, C:120.127] [P:4, C:135.371] 
+Vertex 3, PlanCosts: [P:1, C:1180.46] [P:3, C:278.817] [P:4, C:136.998] 
+different plan found while doing FPC.....................
+different plan found while doing FPC.....................
+centreMinCost: 88.0668, centreMaxCost: 113.852
+CentrePt PlanCosts: [P:1, C:105.5] [P:3, C:88.0668] [P:4, C:113.852] 
+CentrePointReal (Evaluated): [0.25 0.5 ] 
+[249 499 ] pDiffC: 0.292794
+
+
+Partitioning Rectangle: [0, 0.5] [0, 1] 
+[0 0 ] [499 0 ] [0 999 ] [499 999 ] 
+[0 0 ] [0.5 0 ] [0 1 ] [0.5 1 ] 
+Optimizing Rectangle(n_v = 4): [0, 0.5] [0, 0.5] 
+[0 0 ] [499 0 ] [0 499 ] [499 499 ] 
+[0 0 ] [0.5 0 ] [0 0.5 ] [0.5 0.5 ] 
+Active Plans: 1, 3, 4, 
+numDistinctPlans: 2, optPlans: 1 3 
+Vertex 0, PlanCosts: [P:1, C:86.2441] [P:3, C:86.4365] [P:4, C:113.049] 
+Vertex 1, PlanCosts: [P:1, C:86.2866] [P:3, C:86.51] [P:4, C:113.049] 
+Vertex 2, PlanCosts: [P:1, C:104.079] [P:3, C:87.057] [P:4, C:113.852] 
+Vertex 3, PlanCosts: [P:1, C:116.079] [P:3, C:96.0737] [P:4, C:113.852] 
+Skipping this rectangle..................
+
+Optimizing Rectangle(n_v = 4): [0, 0.5] [0.5, 1] 
+[0 499 ] [499 499 ] [0 999 ] [499 999 ] 
+[0 0.5 ] [0.5 0.5 ] [0 1 ] [0.5 1 ] 
+Active Plans: 1, 3, 4, 
+numDistinctPlans: 2, optPlans: 3 4 
+Vertex 0, PlanCosts: [P:1, C:104.079] [P:3, C:87.057] [P:4, C:113.852] 
+Vertex 1, PlanCosts: [P:1, C:116.079] [P:3, C:96.0737] [P:4, C:113.852] 
+Vertex 2, PlanCosts: [P:1, C:1068.56] [P:3, C:120.127] [P:4, C:135.371] 
+Vertex 3, PlanCosts: [P:1, C:1180.46] [P:3, C:278.817] [P:4, C:136.998] 
+Skipping this rectangle..................
+
+Optimizing Rectangle(n_v = 4): [0.5, 1] [0, 1] 
+[499 0 ] [999 0 ] [499 999 ] [999 999 ] 
+[0.5 0 ] [1 0 ] [0.5 1 ] [1 1 ] 
+Active Plans: 1, 3, 4, 
+numDistinctPlans: 3, optPlans: 1 3 4 
+Vertex 0, PlanCosts: [P:1, C:86.2866] [P:3, C:86.51] [P:4, C:113.049] 
+Vertex 1, PlanCosts: [P:1, C:86.2866] [P:3, C:88.2545] [P:4, C:113.07] 
+Vertex 2, PlanCosts: [P:1, C:1180.46] [P:3, C:278.817] [P:4, C:136.998] 
+Vertex 3, PlanCosts: [P:1, C:3003.76] [P:3, C:7961.08] [P:4, C:136.751] 
+different plan found while doing FPC.....................
+different plan found while doing FPC.....................
+centreMinCost: 113.857, centreMaxCost: 161.318
+CentrePt PlanCosts: [P:1, C:161.318] [P:3, C:132.132] [P:4, C:113.857] 
+CentrePointReal (Evaluated): [0.75 0.5 ] 
+[749 499 ] pDiffC: 0.416844
+
+
+Partitioning Rectangle: [0.5, 1] [0, 1] 
+[499 0 ] [999 0 ] [499 999 ] [999 999 ] 
+[0.5 0 ] [1 0 ] [0.5 1 ] [1 1 ] 
+Optimizing Rectangle(n_v = 4): [0.5, 1] [0, 0.5] 
+[499 0 ] [999 0 ] [499 499 ] [999 499 ] 
+[0.5 0 ] [1 0 ] [0.5 0.5 ] [1 0.5 ] 
+Active Plans: 1, 3, 4, 
+different plan found while doing FPC.....................
+numDistinctPlans: 3, optPlans: 1 3 4 
+Vertex 0, PlanCosts: [P:1, C:86.2866] [P:3, C:86.51] [P:4, C:113.049] 
+Vertex 1, PlanCosts: [P:1, C:86.2866] [P:3, C:88.2545] [P:4, C:113.07] 
+Vertex 2, PlanCosts: [P:1, C:116.079] [P:3, C:96.0737] [P:4, C:113.852] 
+Vertex 3, PlanCosts: [P:1, C:260.774] [P:3, C:267.462] [P:4, C:113.876] 
+different plan found while doing FPC.....................
+different plan found while doing FPC.....................
+centreMinCost: 97.8996, centreMaxCost: 113.202
+CentrePt PlanCosts: [P:1, C:103.695] [P:3, C:97.8996] [P:4, C:113.202] 
+CentrePointReal (Evaluated): [0.75 0.25 ] 
+[749 249 ] pDiffC: 0.156303
+
+
+Partitioning Rectangle: [0.5, 1] [0, 0.5] 
+[499 0 ] [999 0 ] [499 499 ] [999 499 ] 
+[0.5 0 ] [1 0 ] [0.5 0.5 ] [1 0.5 ] 
+Optimizing Rectangle(n_v = 4): [0.5, 0.75] [0, 0.5] 
+[499 0 ] [749 0 ] [499 499 ] [749 499 ] 
+[0.5 0 ] [0.75 0 ] [0.5 0.5 ] [0.75 0.5 ] 
+Active Plans: 1, 3, 4, 
+different plan found while doing FPC.....................
+numDistinctPlans: 3, optPlans: 1 3 4 
+Vertex 0, PlanCosts: [P:1, C:86.2866] [P:3, C:86.51] [P:4, C:113.049] 
+Vertex 1, PlanCosts: [P:1, C:86.2866] [P:3, C:86.7157] [P:4, C:113.051] 
+Vertex 2, PlanCosts: [P:1, C:116.079] [P:3, C:96.0737] [P:4, C:113.852] 
+Vertex 3, PlanCosts: [P:1, C:161.318] [P:3, C:132.132] [P:4, C:113.857] 
+different plan found while doing FPC.....................
+different plan found while doing FPC.....................
+centreMinCost: 90.9608, centreMaxCost: 113.198
+CentrePt PlanCosts: [P:1, C:94.7735] [P:3, C:90.9608] [P:4, C:113.198] 
+CentrePointReal (Evaluated): [0.625 0.25 ] 
+[624 249 ] pDiffC: 0.24447
+
+
+Partitioning Rectangle: [0.5, 0.75] [0, 0.5] 
+[499 0 ] [749 0 ] [499 499 ] [749 499 ] 
+[0.5 0 ] [0.75 0 ] [0.5 0.5 ] [0.75 0.5 ] 
+Optimizing Rectangle(n_v = 4): [0.5, 0.75] [0, 0.25] 
+[499 0 ] [749 0 ] [499 249 ] [749 249 ] 
+[0.5 0 ] [0.75 0 ] [0.5 0.25 ] [0.75 0.25 ] 
+Active Plans: 1, 3, 4, 
+different plan found while doing FPC.....................
+different plan found while doing FPC.....................
+numDistinctPlans: 2, optPlans: 1 3 
+Vertex 0, PlanCosts: [P:1, C:86.2866] [P:3, C:86.51] [P:4, C:113.049] 
+Vertex 1, PlanCosts: [P:1, C:86.2866] [P:3, C:86.7157] [P:4, C:113.051] 
+Vertex 2, PlanCosts: [P:1, C:91.0498] [P:3, C:88.1368] [P:4, C:113.197] 
+Vertex 3, PlanCosts: [P:1, C:103.695] [P:3, C:97.8996] [P:4, C:113.202] 
+Skipping this rectangle..................
+
+Optimizing Rectangle(n_v = 4): [0.5, 0.75] [0.25, 0.5] 
+[499 249 ] [749 249 ] [499 499 ] [749 499 ] 
+[0.5 0.25 ] [0.75 0.25 ] [0.5 0.5 ] [0.75 0.5 ] 
+Active Plans: 1, 3, 4, 
+numDistinctPlans: 2, optPlans: 3 4 
+Vertex 0, PlanCosts: [P:1, C:91.0498] [P:3, C:88.1368] [P:4, C:113.197] 
+Vertex 1, PlanCosts: [P:1, C:103.695] [P:3, C:97.8996] [P:4, C:113.202] 
+Vertex 2, PlanCosts: [P:1, C:116.079] [P:3, C:96.0737] [P:4, C:113.852] 
+Vertex 3, PlanCosts: [P:1, C:161.318] [P:3, C:132.132] [P:4, C:113.857] 
+Skipping this rectangle..................
+
+Optimizing Rectangle(n_v = 4): [0.75, 1] [0, 0.5] 
+[749 0 ] [999 0 ] [749 499 ] [999 499 ] 
+[0.75 0 ] [1 0 ] [0.75 0.5 ] [1 0.5 ] 
+Active Plans: 1, 3, 4, 
+numDistinctPlans: 3, optPlans: 1 3 4 
+Vertex 0, PlanCosts: [P:1, C:86.2866] [P:3, C:86.7157] [P:4, C:113.051] 
+Vertex 1, PlanCosts: [P:1, C:86.2866] [P:3, C:88.2545] [P:4, C:113.07] 
+Vertex 2, PlanCosts: [P:1, C:161.318] [P:3, C:132.132] [P:4, C:113.857] 
+Vertex 3, PlanCosts: [P:1, C:260.774] [P:3, C:267.462] [P:4, C:113.876] 
+different plan found while doing FPC.....................
+different plan found while doing FPC.....................
+centreMinCost: 112.885, centreMaxCost: 122.129
+CentrePt PlanCosts: [P:1, C:122.129] [P:3, C:112.885] [P:4, C:113.207] 
+CentrePointReal (Evaluated): [0.875 0.25 ] 
+[874 249 ] pDiffC: 0.0818947
+
+
+Partitioning Rectangle: [0.75, 1] [0, 0.5] 
+[749 0 ] [999 0 ] [749 499 ] [999 499 ] 
+[0.75 0 ] [1 0 ] [0.75 0.5 ] [1 0.5 ] 
+Optimizing Rectangle(n_v = 4): [0.75, 1] [0, 0.25] 
+[749 0 ] [999 0 ] [749 249 ] [999 249 ] 
+[0.75 0 ] [1 0 ] [0.75 0.25 ] [1 0.25 ] 
+Active Plans: 1, 3, 4, 
+different plan found while doing FPC.....................
+numDistinctPlans: 3, optPlans: 1 3 4 
+Vertex 0, PlanCosts: [P:1, C:86.2866] [P:3, C:86.7157] [P:4, C:113.051] 
+Vertex 1, PlanCosts: [P:1, C:86.2866] [P:3, C:88.2545] [P:4, C:113.07] 
+Vertex 2, PlanCosts: [P:1, C:103.695] [P:3, C:97.8996] [P:4, C:113.202] 
+Vertex 3, PlanCosts: [P:1, C:141.804] [P:3, C:129.844] [P:4, C:113.22] 
+different plan found while doing FPC.....................
+different plan found while doing FPC.....................
+centreMinCost: 102.363, centreMaxCost: 113.144
+CentrePt PlanCosts: [P:1, C:107.46] [P:3, C:102.363] [P:4, C:113.144] 
+CentrePointReal (Evaluated): [0.875 0.125 ] 
+[874 124 ] pDiffC: 0.105325
+
+
+Partitioning Rectangle: [0.75, 1] [0, 0.25] 
+[749 0 ] [999 0 ] [749 249 ] [999 249 ] 
+[0.75 0 ] [1 0 ] [0.75 0.25 ] [1 0.25 ] 
+Optimizing Rectangle(n_v = 4): [0.75, 0.875] [0, 0.25] 
+[749 0 ] [874 0 ] [749 249 ] [874 249 ] 
+[0.75 0 ] [0.875 0 ] [0.75 0.25 ] [0.875 0.25 ] 
+Active Plans: 1, 3, 4, 
+different plan found while doing FPC.....................
+numDistinctPlans: 3, optPlans: 1 3 4 
+Vertex 0, PlanCosts: [P:1, C:86.2866] [P:3, C:86.7157] [P:4, C:113.051] 
+Vertex 1, PlanCosts: [P:1, C:86.2866] [P:3, C:87.1279] [P:4, C:113.056] 
+Vertex 2, PlanCosts: [P:1, C:103.695] [P:3, C:97.8996] [P:4, C:113.202] 
+Vertex 3, PlanCosts: [P:1, C:122.129] [P:3, C:112.885] [P:4, C:113.207] 
+different plan found while doing FPC.....................
+different plan found while doing FPC.....................
+centreMinCost: 98.9983, centreMaxCost: 113.141
+CentrePt PlanCosts: [P:1, C:103.519] [P:3, C:98.9983] [P:4, C:113.141] 
+CentrePointReal (Evaluated): [0.8125 0.125 ] 
+[812 124 ] pDiffC: 0.142857
+
+
+Partitioning Rectangle: [0.75, 0.875] [0, 0.25] 
+[749 0 ] [874 0 ] [749 249 ] [874 249 ] 
+[0.75 0 ] [0.875 0 ] [0.75 0.25 ] [0.875 0.25 ] 
+Optimizing Rectangle(n_v = 4): [0.75, 0.875] [0, 0.125] 
+[749 0 ] [874 0 ] [749 124 ] [874 124 ] 
+[0.75 0 ] [0.875 0 ] [0.75 0.125 ] [0.875 0.125 ] 
+Active Plans: 1, 3, 4, 
+different plan found while doing FPC.....................
+different plan found while doing FPC.....................
+numDistinctPlans: 2, optPlans: 1 3 
+Vertex 0, PlanCosts: [P:1, C:86.2866] [P:3, C:86.7157] [P:4, C:113.051] 
+Vertex 1, PlanCosts: [P:1, C:86.2866] [P:3, C:87.1279] [P:4, C:113.056] 
+Vertex 2, PlanCosts: [P:1, C:97.7119] [P:3, C:94.3718] [P:4, C:113.139] 
+Vertex 3, PlanCosts: [P:1, C:107.46] [P:3, C:102.363] [P:4, C:113.144] 
+Skipping this rectangle..................
+
+Optimizing Rectangle(n_v = 4): [0.75, 0.875] [0.125, 0.25] 
+[749 124 ] [874 124 ] [749 249 ] [874 249 ] 
+[0.75 0.125 ] [0.875 0.125 ] [0.75 0.25 ] [0.875 0.25 ] 
+Active Plans: 1, 3, 4, 
+numDistinctPlans: 2, optPlans: 3 4 
+Vertex 0, PlanCosts: [P:1, C:97.7119] [P:3, C:94.3718] [P:4, C:113.139] 
+Vertex 1, PlanCosts: [P:1, C:107.46] [P:3, C:102.363] [P:4, C:113.144] 
+Vertex 2, PlanCosts: [P:1, C:103.695] [P:3, C:97.8996] [P:4, C:113.202] 
+Vertex 3, PlanCosts: [P:1, C:122.129] [P:3, C:112.885] [P:4, C:113.207] 
+Skipping this rectangle..................
+
+Optimizing Rectangle(n_v = 4): [0.875, 1] [0, 0.25] 
+[874 0 ] [999 0 ] [874 249 ] [999 249 ] 
+[0.875 0 ] [1 0 ] [0.875 0.25 ] [1 0.25 ] 
+Active Plans: 1, 3, 4, 
+numDistinctPlans: 3, optPlans: 1 3 4 
+Vertex 0, PlanCosts: [P:1, C:86.2866] [P:3, C:87.1279] [P:4, C:113.056] 
+Vertex 1, PlanCosts: [P:1, C:86.2866] [P:3, C:88.2545] [P:4, C:113.07] 
+Vertex 2, PlanCosts: [P:1, C:122.129] [P:3, C:112.885] [P:4, C:113.207] 
+Vertex 3, PlanCosts: [P:1, C:141.804] [P:3, C:129.844] [P:4, C:113.22] 
+different plan found while doing FPC.....................
+different plan found while doing FPC.....................
+centreMinCost: 102.792, centreMaxCost: 113.149
+CentrePt PlanCosts: [P:1, C:107.461] [P:3, C:102.792] [P:4, C:113.149] 
+CentrePointReal (Evaluated): [0.9375 0.125 ] 
+[937 124 ] pDiffC: 0.100755
+
+
+Partitioning Rectangle: [0.875, 1] [0, 0.25] 
+[874 0 ] [999 0 ] [874 249 ] [999 249 ] 
+[0.875 0 ] [1 0 ] [0.875 0.25 ] [1 0.25 ] 
+Optimizing Rectangle(n_v = 4): [0.875, 1] [0, 0.125] 
+[874 0 ] [999 0 ] [874 124 ] [999 124 ] 
+[0.875 0 ] [1 0 ] [0.875 0.125 ] [1 0.125 ] 
+Active Plans: 1, 3, 4, 
+different plan found while doing FPC.....................
+numDistinctPlans: 2, optPlans: 1 3 
+Vertex 0, PlanCosts: [P:1, C:86.2866] [P:3, C:87.1279] [P:4, C:113.056] 
+Vertex 1, PlanCosts: [P:1, C:86.2866] [P:3, C:88.2545] [P:4, C:113.07] 
+Vertex 2, PlanCosts: [P:1, C:107.46] [P:3, C:102.363] [P:4, C:113.144] 
+Vertex 3, PlanCosts: [P:1, C:107.463] [P:3, C:103.491] [P:4, C:113.157] 
+Skipping this rectangle..................
+
+Optimizing Rectangle(n_v = 4): [0.875, 1] [0.125, 0.25] 
+[874 124 ] [999 124 ] [874 249 ] [999 249 ] 
+[0.875 0.125 ] [1 0.125 ] [0.875 0.25 ] [1 0.25 ] 
+Active Plans: 1, 3, 4, 
+numDistinctPlans: 2, optPlans: 3 4 
+Vertex 0, PlanCosts: [P:1, C:107.46] [P:3, C:102.363] [P:4, C:113.144] 
+Vertex 1, PlanCosts: [P:1, C:107.463] [P:3, C:103.491] [P:4, C:113.157] 
+Vertex 2, PlanCosts: [P:1, C:122.129] [P:3, C:112.885] [P:4, C:113.207] 
+Vertex 3, PlanCosts: [P:1, C:141.804] [P:3, C:129.844] [P:4, C:113.22] 
+Skipping this rectangle..................
+
+Optimizing Rectangle(n_v = 4): [0.75, 1] [0.25, 0.5] 
+[749 249 ] [999 249 ] [749 499 ] [999 499 ] 
+[0.75 0.25 ] [1 0.25 ] [0.75 0.5 ] [1 0.5 ] 
+Active Plans: 1, 3, 4, 
+numDistinctPlans: 2, optPlans: 3 4 
+Vertex 0, PlanCosts: [P:1, C:103.695] [P:3, C:97.8996] [P:4, C:113.202] 
+Vertex 1, PlanCosts: [P:1, C:141.804] [P:3, C:129.844] [P:4, C:113.22] 
+Vertex 2, PlanCosts: [P:1, C:161.318] [P:3, C:132.132] [P:4, C:113.857] 
+Vertex 3, PlanCosts: [P:1, C:260.774] [P:3, C:267.462] [P:4, C:113.876] 
+Skipping this rectangle..................
+
+Optimizing Rectangle(n_v = 4): [0.5, 1] [0.5, 1] 
+[499 499 ] [999 499 ] [499 999 ] [999 999 ] 
+[0.5 0.5 ] [1 0.5 ] [0.5 1 ] [1 1 ] 
+Active Plans: 1, 3, 4, 
+numDistinctPlans: 2, optPlans: 3 4 
+Vertex 0, PlanCosts: [P:1, C:116.079] [P:3, C:96.0737] [P:4, C:113.852] 
+Vertex 1, PlanCosts: [P:1, C:260.774] [P:3, C:267.462] [P:4, C:113.876] 
+Vertex 2, PlanCosts: [P:1, C:1180.46] [P:3, C:278.817] [P:4, C:136.998] 
+Vertex 3, PlanCosts: [P:1, C:3003.76] [P:3, C:7961.08] [P:4, C:136.751] 
+Skipping this rectangle..................
+
+$$$$$$$$$$$$ Error: Even BIG rectangle couldnt locate the new partitioning vertex. $$$$$$$$$$$$
+
+pOptimizer_t::Optimize(Edge_t, PlanId_t) invocation # = 4
+In Rectangle_t::NumOptPlans (n_v = 2): [0, 0.777344] [1, 1] 
+[0 999 ] [777 999 ] 
+[0 1 ] [0.777344 1 ] 
+Active Plans: 3, 4, 
+numDistinctPlans: 2, optPlans: 3 4 
+Optimizing Rectangle(n_v = 2): [0, 0.777344] [1, 1] 
+[0 999 ] [777 999 ] 
+[0 1 ] [0.777344 1 ] 
+Active Plans: 3, 4, 
+numDistinctPlans: 2, optPlans: 3 4 
+Vertex 0, PlanCosts: [P:1, C:1068.56] [P:3, C:120.127] [P:4, C:135.371] 
+Vertex 1, PlanCosts: [P:1, C:1461.29] [P:3, C:1457.38] [P:4, C:137.015] 
+different plan found while doing FPC.....................
+centreMinCost: 135.371, centreMaxCost: 194.869
+CentrePt PlanCosts: [P:3, C:194.869] [P:4, C:135.371] 
+CentrePointReal (Evaluated): [0.388672 1 ] 
+[388 999 ] pDiffC: 0.439511
+
+
+Partitioning Rectangle: [0, 0.777344] [1, 1] 
+[0 999 ] [777 999 ] 
+[0 1 ] [0.777344 1 ] 
+Optimizing Rectangle(n_v = 2): [0, 0.388672] [1, 1] 
+[0 999 ] [388 999 ] 
+[0 1 ] [0.388672 1 ] 
+Active Plans: 3, 4, 
+numDistinctPlans: 2, optPlans: 3 4 
+Vertex 0, PlanCosts: [P:1, C:1068.56] [P:3, C:120.127] [P:4, C:135.371] 
+Vertex 1, PlanCosts: [P:3, C:194.869] [P:4, C:135.371] 
+different plan found while doing FPC.....................
+centreMinCost: 135.371, centreMaxCost: 142.656
+CentrePt PlanCosts: [P:3, C:142.656] [P:4, C:135.371] 
+CentrePointReal (Evaluated): [0.194336 1 ] 
+[194 999 ] pDiffC: 0.0538131
+
+
+Partitioning Rectangle: [0, 0.388672] [1, 1] 
+[0 999 ] [388 999 ] 
+[0 1 ] [0.388672 1 ] 
+Optimizing Rectangle(n_v = 2): [0, 0.194336] [1, 1] 
+[0 999 ] [194 999 ] 
+[0 1 ] [0.194336 1 ] 
+Active Plans: 3, 4, 
+numDistinctPlans: 2, optPlans: 3 4 
+Vertex 0, PlanCosts: [P:1, C:1068.56] [P:3, C:120.127] [P:4, C:135.371] 
+Vertex 1, PlanCosts: [P:3, C:142.656] [P:4, C:135.371] 
+different plan found while doing FPC.....................
+centreMinCost: 125.365, centreMaxCost: 135.371
+CentrePt PlanCosts: [P:3, C:125.365] [P:4, C:135.371] 
+CentrePointReal (Evaluated): [0.097168 1 ] 
+[97 999 ] pDiffC: 0.0798168
+
+
+Partitioning Rectangle: [0, 0.194336] [1, 1] 
+[0 999 ] [194 999 ] 
+[0 1 ] [0.194336 1 ] 
+Optimizing Rectangle(n_v = 2): [0, 0.097168] [1, 1] 
+[0 999 ] [97 999 ] 
+[0 1 ] [0.097168 1 ] 
+Active Plans: 3, 4, 
+numDistinctPlans: 1, optPlans: 3 
+Vertex 0, PlanCosts: [P:1, C:1068.56] [P:3, C:120.127] [P:4, C:135.371] 
+Vertex 1, PlanCosts: [P:3, C:125.365] [P:4, C:135.371] 
+Skipping this rectangle..................
+
+Optimizing Rectangle(n_v = 2): [0.097168, 0.194336] [1, 1] 
+[97 999 ] [194 999 ] 
+[0.097168 1 ] [0.194336 1 ] 
+Active Plans: 3, 4, 
+numDistinctPlans: 2, optPlans: 3 4 
+Vertex 0, PlanCosts: [P:3, C:125.365] [P:4, C:135.371] 
+Vertex 1, PlanCosts: [P:3, C:142.656] [P:4, C:135.371] 
+different plan found while doing FPC.....................
+centreMinCost: 133.072, centreMaxCost: 135.371
+CentrePt PlanCosts: [P:3, C:133.072] [P:4, C:135.371] 
+CentrePointReal (Evaluated): [0.145752 1 ] 
+[145 999 ] pDiffC: 0.0172777
+
+
+Partitioning Rectangle: [0.097168, 0.194336] [1, 1] 
+[97 999 ] [194 999 ] 
+[0.097168 1 ] [0.194336 1 ] 
+Optimizing Rectangle(n_v = 2): [0.097168, 0.145752] [1, 1] 
+[97 999 ] [145 999 ] 
+[0.097168 1 ] [0.145752 1 ] 
+Active Plans: 3, 4, 
+numDistinctPlans: 1, optPlans: 3 
+Vertex 0, PlanCosts: [P:3, C:125.365] [P:4, C:135.371] 
+Vertex 1, PlanCosts: [P:3, C:133.072] [P:4, C:135.371] 
+Skipping this rectangle..................
+
+Optimizing Rectangle(n_v = 2): [0.145752, 0.194336] [1, 1] 
+[145 999 ] [194 999 ] 
+[0.145752 1 ] [0.194336 1 ] 
+Active Plans: 3, 4, 
+numDistinctPlans: 2, optPlans: 3 4 
+Vertex 0, PlanCosts: [P:3, C:133.072] [P:4, C:135.371] 
+Vertex 1, PlanCosts: [P:3, C:142.656] [P:4, C:135.371] 
+different plan found while doing FPC.....................
+centreMinCost: 135.371, centreMaxCost: 137.741
+CentrePt PlanCosts: [P:3, C:137.741] [P:4, C:135.371] 
+CentrePointReal (Evaluated): [0.170044 1 ] 
+[170 999 ] pDiffC: 0.0175097
+
+
+Partitioning Rectangle: [0.145752, 0.194336] [1, 1] 
+[145 999 ] [194 999 ] 
+[0.145752 1 ] [0.194336 1 ] 
+Optimizing Rectangle(n_v = 2): [0.145752, 0.170044] [1, 1] 
+[145 999 ] [170 999 ] 
+[0.145752 1 ] [0.170044 1 ] 
+Active Plans: 3, 4, 
+numDistinctPlans: 2, optPlans: 3 4 
+Vertex 0, PlanCosts: [P:3, C:133.072] [P:4, C:135.371] 
+Vertex 1, PlanCosts: [P:3, C:137.741] [P:4, C:135.371] 
+different plan found while doing FPC.....................
+centreMinCost: 135.256, centreMaxCost: 135.371
+CentrePt PlanCosts: [P:3, C:135.256] [P:4, C:135.371] 
+CentrePointReal (Evaluated): [0.157898 1 ] 
+[157 999 ] pDiffC: 0.000847909
+
+Partitioning Vertices: 
+[0 0 ] Plan Costs: [P:1, C:86.2441] [P:3, C:86.4365] [P:4, C:113.049] Min Plan Costs: [P:1, C:86.2441] [P:3, C:86.4365]  Optimized. Threshold = 0.01
+[999 0 ] Plan Costs: [P:1, C:86.2866] [P:3, C:88.2545] [P:4, C:113.07] Min Plan Costs: [P:1, C:86.2866]  Optimized. Threshold = 0.01
+[0 999 ] Plan Costs: [P:1, C:1068.56] [P:3, C:120.127] [P:4, C:135.371] Min Plan Costs: [P:3, C:120.127]  Optimized. Threshold = 0.01
+[999 999 ] Plan Costs: [P:1, C:3003.76] [P:3, C:7961.08] [P:4, C:136.751] Min Plan Costs: [P:4, C:136.751]  Optimized. Threshold = 0.01
+[999 148 ] Plan Costs: [P:1, C:112.901] [P:4, C:113.165] Min Plan Costs: [P:1, C:112.901] [P:4, C:113.165] Threshold = 0.01
+[157 999 ] Plan Costs: [P:3, C:135.256] [P:4, C:135.371] Min Plan Costs: [P:3, C:135.256] [P:4, C:135.371] Threshold = 0.01
+
+Optimizing vertex [999 148 ] 
+New plan found, plan num: 5
+New optimal plan 5 is not co-optimal. Hence added to CSOP.
+
+different plan found while doing FPC.....................
+different plan found while doing FPC.....................
+pOptimizer_t::Optimize(Edge_t, PlanId_t) invocation # = 5
+In Rectangle_t::NumOptPlans (n_v = 2): [1, 1] [0, 0.148438] 
+[999 0 ] [999 148 ] 
+[1 0 ] [1 0.148438 ] 
+Active Plans: 1, 5, 
+numDistinctPlans: 2, optPlans: 1 5 
+Optimizing Rectangle(n_v = 2): [1, 1] [0, 0.148438] 
+[999 0 ] [999 148 ] 
+[1 0 ] [1 0.148438 ] 
+Active Plans: 1, 5, 
+numDistinctPlans: 2, optPlans: 1 5 
+Vertex 0, PlanCosts: [P:1, C:86.2866] [P:3, C:88.2545] [P:4, C:113.07] [P:5, C:89.5571] 
+Vertex 1, PlanCosts: [P:1, C:112.901] [P:4, C:113.165] [P:5, C:95.8973] 
+different plan found while doing FPC.....................
+different plan found while doing FPC.....................
+centreMinCost: 96.0221, centreMaxCost: 97.7104
+CentrePt PlanCosts: [P:1, C:97.7104] [P:5, C:96.0221] 
+CentrePointReal (Evaluated): [1 0.0742188 ] 
+[999 74 ] pDiffC: 0.0175832
+
+
+Partitioning Rectangle: [1, 1] [0, 0.148438] 
+[999 0 ] [999 148 ] 
+[1 0 ] [1 0.148438 ] 
+Optimizing Rectangle(n_v = 2): [1, 1] [0, 0.0742188] 
+[999 0 ] [999 74 ] 
+[1 0 ] [1 0.0742188 ] 
+Active Plans: 1, 5, 
+numDistinctPlans: 2, optPlans: 1 5 
+Vertex 0, PlanCosts: [P:1, C:86.2866] [P:3, C:88.2545] [P:4, C:113.07] [P:5, C:89.5571] 
+Vertex 1, PlanCosts: [P:1, C:97.7104] [P:5, C:96.0221] 
+different plan found while doing FPC.....................
+different plan found while doing FPC.....................
+centreMinCost: 91.7571, centreMaxCost: 92.7613
+CentrePt PlanCosts: [P:1, C:91.7571] [P:5, C:92.7613] 
+CentrePointReal (Evaluated): [1 0.0371094 ] 
+[999 37 ] pDiffC: 0.0109443
+
+
+Partitioning Rectangle: [1, 1] [0, 0.0742188] 
+[999 0 ] [999 74 ] 
+[1 0 ] [1 0.0742188 ] 
+Optimizing Rectangle(n_v = 2): [1, 1] [0, 0.0371094] 
+[999 0 ] [999 37 ] 
+[1 0 ] [1 0.0371094 ] 
+Active Plans: 1, 5, 
+numDistinctPlans: 1, optPlans: 1 
+Vertex 0, PlanCosts: [P:1, C:86.2866] [P:3, C:88.2545] [P:4, C:113.07] [P:5, C:89.5571] 
+Vertex 1, PlanCosts: [P:1, C:91.7571] [P:5, C:92.7613] 
+Skipping this rectangle..................
+
+Optimizing Rectangle(n_v = 2): [1, 1] [0.0371094, 0.0742188] 
+[999 37 ] [999 74 ] 
+[1 0.0371094 ] [1 0.0742188 ] 
+Active Plans: 1, 5, 
+numDistinctPlans: 2, optPlans: 1 5 
+Vertex 0, PlanCosts: [P:1, C:91.7571] [P:5, C:92.7613] 
+Vertex 1, PlanCosts: [P:1, C:97.7104] [P:5, C:96.0221] 
+different plan found while doing FPC.....................
+different plan found while doing FPC.....................
+centreMinCost: 94.5278, centreMaxCost: 94.5892
+CentrePt PlanCosts: [P:1, C:94.5278] [P:5, C:94.5892] 
+CentrePointReal (Evaluated): [1 0.0556641 ] 
+[999 55 ] pDiffC: 0.000649639
+
+pOptimizer_t::Optimize(Edge_t, PlanId_t) invocation # = 6
+In Rectangle_t::NumOptPlans (n_v = 2): [1, 1] [0.148438, 1] 
+[999 148 ] [999 999 ] 
+[1 0.148438 ] [1 1 ] 
+Active Plans: 4, 5, 
+numDistinctPlans: 2, optPlans: 4 5 
+Optimizing Rectangle(n_v = 2): [1, 1] [0.148438, 1] 
+[999 148 ] [999 999 ] 
+[1 0.148438 ] [1 1 ] 
+Active Plans: 4, 5, 
+numDistinctPlans: 2, optPlans: 4 5 
+Vertex 0, PlanCosts: [P:1, C:112.901] [P:4, C:113.165] [P:5, C:95.8973] 
+Vertex 1, PlanCosts: [P:1, C:3003.76] [P:3, C:7961.08] [P:4, C:136.751] [P:5, C:195.858] 
+different plan found while doing FPC.....................
+centreMinCost: 100.404, centreMaxCost: 114.504
+CentrePt PlanCosts: [P:4, C:114.504] [P:5, C:100.404] 
+CentrePointReal (Evaluated): [1 0.574219 ] 
+[999 574 ] pDiffC: 0.140433
+
+
+Partitioning Rectangle: [1, 1] [0.148438, 1] 
+[999 148 ] [999 999 ] 
+[1 0.148438 ] [1 1 ] 
+Optimizing Rectangle(n_v = 2): [1, 1] [0.148438, 0.574219] 
+[999 148 ] [999 574 ] 
+[1 0.148438 ] [1 0.574219 ] 
+Active Plans: 4, 5, 
+numDistinctPlans: 1, optPlans: 5 
+Vertex 0, PlanCosts: [P:1, C:112.901] [P:4, C:113.165] [P:5, C:95.8973] 
+Vertex 1, PlanCosts: [P:4, C:114.504] [P:5, C:100.404] 
+Skipping this rectangle..................
+
+Optimizing Rectangle(n_v = 2): [1, 1] [0.574219, 1] 
+[999 574 ] [999 999 ] 
+[1 0.574219 ] [1 1 ] 
+Active Plans: 4, 5, 
+numDistinctPlans: 2, optPlans: 4 5 
+Vertex 0, PlanCosts: [P:4, C:114.504] [P:5, C:100.404] 
+Vertex 1, PlanCosts: [P:1, C:3003.76] [P:3, C:7961.08] [P:4, C:136.751] [P:5, C:195.858] 
+different plan found while doing FPC.....................
+centreMinCost: 118.83, centreMaxCost: 122.09
+CentrePt PlanCosts: [P:4, C:118.83] [P:5, C:122.09] 
+CentrePointReal (Evaluated): [1 0.787109 ] 
+[999 787 ] pDiffC: 0.0274361
+
+
+Partitioning Rectangle: [1, 1] [0.574219, 1] 
+[999 574 ] [999 999 ] 
+[1 0.574219 ] [1 1 ] 
+Optimizing Rectangle(n_v = 2): [1, 1] [0.574219, 0.787109] 
+[999 574 ] [999 787 ] 
+[1 0.574219 ] [1 0.787109 ] 
+Active Plans: 4, 5, 
+numDistinctPlans: 2, optPlans: 4 5 
+Vertex 0, PlanCosts: [P:4, C:114.504] [P:5, C:100.404] 
+Vertex 1, PlanCosts: [P:4, C:118.83] [P:5, C:122.09] 
+different plan found while doing FPC.....................
+centreMinCost: 106.831, centreMaxCost: 116.381
+CentrePt PlanCosts: [P:4, C:116.381] [P:5, C:106.831] 
+CentrePointReal (Evaluated): [1 0.680664 ] 
+[999 680 ] pDiffC: 0.0893919
+
+
+Partitioning Rectangle: [1, 1] [0.574219, 0.787109] 
+[999 574 ] [999 787 ] 
+[1 0.574219 ] [1 0.787109 ] 
+Optimizing Rectangle(n_v = 2): [1, 1] [0.574219, 0.680664] 
+[999 574 ] [999 680 ] 
+[1 0.574219 ] [1 0.680664 ] 
+Active Plans: 4, 5, 
+numDistinctPlans: 1, optPlans: 5 
+Vertex 0, PlanCosts: [P:4, C:114.504] [P:5, C:100.404] 
+Vertex 1, PlanCosts: [P:4, C:116.381] [P:5, C:106.831] 
+Skipping this rectangle..................
+
+Optimizing Rectangle(n_v = 2): [1, 1] [0.680664, 0.787109] 
+[999 680 ] [999 787 ] 
+[1 0.680664 ] [1 0.787109 ] 
+Active Plans: 4, 5, 
+numDistinctPlans: 2, optPlans: 4 5 
+Vertex 0, PlanCosts: [P:4, C:116.381] [P:5, C:106.831] 
+Vertex 1, PlanCosts: [P:4, C:118.83] [P:5, C:122.09] 
+different plan found while doing FPC.....................
+centreMinCost: 112.925, centreMaxCost: 117.537
+CentrePt PlanCosts: [P:4, C:117.537] [P:5, C:112.925] 
+CentrePointReal (Evaluated): [1 0.733887 ] 
+[999 733 ] pDiffC: 0.0408353
+
+
+Partitioning Rectangle: [1, 1] [0.680664, 0.787109] 
+[999 680 ] [999 787 ] 
+[1 0.680664 ] [1 0.787109 ] 
+Optimizing Rectangle(n_v = 2): [1, 1] [0.680664, 0.733887] 
+[999 680 ] [999 733 ] 
+[1 0.680664 ] [1 0.733887 ] 
+Active Plans: 4, 5, 
+numDistinctPlans: 1, optPlans: 5 
+Vertex 0, PlanCosts: [P:4, C:116.381] [P:5, C:106.831] 
+Vertex 1, PlanCosts: [P:4, C:117.537] [P:5, C:112.925] 
+Skipping this rectangle..................
+
+Optimizing Rectangle(n_v = 2): [1, 1] [0.733887, 0.787109] 
+[999 733 ] [999 787 ] 
+[1 0.733887 ] [1 0.787109 ] 
+Active Plans: 4, 5, 
+numDistinctPlans: 2, optPlans: 4 5 
+Vertex 0, PlanCosts: [P:4, C:117.537] [P:5, C:112.925] 
+Vertex 1, PlanCosts: [P:4, C:118.83] [P:5, C:122.09] 
+different plan found while doing FPC.....................
+centreMinCost: 117.104, centreMaxCost: 118.11
+CentrePt PlanCosts: [P:4, C:118.11] [P:5, C:117.104] 
+CentrePointReal (Evaluated): [1 0.760498 ] 
+[999 760 ] pDiffC: 0.00859183
+
+Partitioning Vertices: 
+[0 0 ] Plan Costs: [P:1, C:86.2441] [P:3, C:86.4365] [P:4, C:113.049] Min Plan Costs: [P:1, C:86.2441] [P:3, C:86.4365]  Optimized. Threshold = 0.01
+[999 0 ] Plan Costs: [P:1, C:86.2866] [P:3, C:88.2545] [P:4, C:113.07] [P:5, C:89.5571] Min Plan Costs: [P:1, C:86.2866]  Optimized. Threshold = 0.01
+[0 999 ] Plan Costs: [P:1, C:1068.56] [P:3, C:120.127] [P:4, C:135.371] Min Plan Costs: [P:3, C:120.127]  Optimized. Threshold = 0.01
+[999 999 ] Plan Costs: [P:1, C:3003.76] [P:3, C:7961.08] [P:4, C:136.751] [P:5, C:195.858] Min Plan Costs: [P:4, C:136.751]  Optimized. Threshold = 0.01
+[157 999 ] Plan Costs: [P:3, C:135.256] [P:4, C:135.371] Min Plan Costs: [P:3, C:135.256] [P:4, C:135.371] Threshold = 0.01
+[999 55 ] Plan Costs: [P:1, C:94.5278] [P:5, C:94.5892] Min Plan Costs: [P:1, C:94.5278] [P:5, C:94.5892] Threshold = 0.01
+[999 760 ] Plan Costs: [P:4, C:118.11] [P:5, C:117.104] Min Plan Costs: [P:4, C:118.11] [P:5, C:117.104] Threshold = 0.01
+
+Optimizing vertex [157 999 ] 
+New plan found, plan num: 6
+New optimal plan 6 is not co-optimal. Hence added to CSOP.
+
+different plan found while doing FPC.....................
+different plan found while doing FPC.....................
+pOptimizer_t::Optimize(Edge_t, PlanId_t) invocation # = 7
+In Rectangle_t::NumOptPlans (n_v = 2): [0, 0.157898] [1, 1] 
+[0 999 ] [157 999 ] 
+[0 1 ] [0.157898 1 ] 
+Active Plans: 3, 6, 
+numDistinctPlans: 2, optPlans: 3 6 
+Optimizing Rectangle(n_v = 2): [0, 0.157898] [1, 1] 
+[0 999 ] [157 999 ] 
+[0 1 ] [0.157898 1 ] 
+Active Plans: 3, 6, 
+numDistinctPlans: 2, optPlans: 3 6 
+Vertex 0, PlanCosts: [P:1, C:1068.56] [P:3, C:120.127] [P:4, C:135.371] [P:6, C:123.007] 
+Vertex 1, PlanCosts: [P:3, C:135.256] [P:4, C:135.371] [P:6, C:123.648] 
+different plan found while doing FPC.....................
+different plan found while doing FPC.....................
+centreMinCost: 122.746, centreMaxCost: 123.902
+CentrePt PlanCosts: [P:3, C:122.746] [P:6, C:123.902] 
+CentrePointReal (Evaluated): [0.078949 1 ] 
+[78 999 ] pDiffC: 0.00941709
+
+pOptimizer_t::Optimize(Edge_t, PlanId_t) invocation # = 8
+In Rectangle_t::NumOptPlans (n_v = 2): [0.157898, 1] [1, 1] 
+[157 999 ] [999 999 ] 
+[0.157898 1 ] [1 1 ] 
+Active Plans: 4, 6, 
+numDistinctPlans: 2, optPlans: 4 6 
+Optimizing Rectangle(n_v = 2): [0.157898, 1] [1, 1] 
+[157 999 ] [999 999 ] 
+[0.157898 1 ] [1 1 ] 
+Active Plans: 4, 6, 
+numDistinctPlans: 2, optPlans: 4 6 
+Vertex 0, PlanCosts: [P:3, C:135.256] [P:4, C:135.371] [P:6, C:123.648] 
+Vertex 1, PlanCosts: [P:1, C:3003.76] [P:3, C:7961.08] [P:4, C:136.751] [P:5, C:195.858] [P:6, C:218.385] 
+different plan found while doing FPC.....................
+centreMinCost: 125.056, centreMaxCost: 137
+CentrePt PlanCosts: [P:4, C:137] [P:6, C:125.056] 
+CentrePointReal (Evaluated): [0.578949 1 ] 
+[578 999 ] pDiffC: 0.0955046
+
+
+Partitioning Rectangle: [0.157898, 1] [1, 1] 
+[157 999 ] [999 999 ] 
+[0.157898 1 ] [1 1 ] 
+Optimizing Rectangle(n_v = 2): [0.157898, 0.578949] [1, 1] 
+[157 999 ] [578 999 ] 
+[0.157898 1 ] [0.578949 1 ] 
+Active Plans: 4, 6, 
+numDistinctPlans: 1, optPlans: 6 
+Vertex 0, PlanCosts: [P:3, C:135.256] [P:4, C:135.371] [P:6, C:123.648] 
+Vertex 1, PlanCosts: [P:4, C:137] [P:6, C:125.056] 
+Skipping this rectangle..................
+
+Optimizing Rectangle(n_v = 2): [0.578949, 1] [1, 1] 
+[578 999 ] [999 999 ] 
+[0.578949 1 ] [1 1 ] 
+Active Plans: 4, 6, 
+numDistinctPlans: 2, optPlans: 4 6 
+Vertex 0, PlanCosts: [P:4, C:137] [P:6, C:125.056] 
+Vertex 1, PlanCosts: [P:1, C:3003.76] [P:3, C:7961.08] [P:4, C:136.751] [P:5, C:195.858] [P:6, C:218.385] 
+different plan found while doing FPC.....................
+centreMinCost: 137.017, centreMaxCost: 149.524
+CentrePt PlanCosts: [P:4, C:137.017] [P:6, C:149.524] 
+CentrePointReal (Evaluated): [0.789474 1 ] 
+[789 999 ] pDiffC: 0.0912832
+
+
+Partitioning Rectangle: [0.578949, 1] [1, 1] 
+[578 999 ] [999 999 ] 
+[0.578949 1 ] [1 1 ] 
+Optimizing Rectangle(n_v = 2): [0.578949, 0.789474] [1, 1] 
+[578 999 ] [789 999 ] 
+[0.578949 1 ] [0.789474 1 ] 
+Active Plans: 4, 6, 
+numDistinctPlans: 2, optPlans: 4 6 
+Vertex 0, PlanCosts: [P:4, C:137] [P:6, C:125.056] 
+Vertex 1, PlanCosts: [P:4, C:137.017] [P:6, C:149.524] 
+different plan found while doing FPC.....................
+centreMinCost: 133.834, centreMaxCost: 137.005
+CentrePt PlanCosts: [P:4, C:137.005] [P:6, C:133.834] 
+CentrePointReal (Evaluated): [0.684212 1 ] 
+[684 999 ] pDiffC: 0.0236955
+
+
+Partitioning Rectangle: [0.578949, 0.789474] [1, 1] 
+[578 999 ] [789 999 ] 
+[0.578949 1 ] [0.789474 1 ] 
+Optimizing Rectangle(n_v = 2): [0.578949, 0.684212] [1, 1] 
+[578 999 ] [684 999 ] 
+[0.578949 1 ] [0.684212 1 ] 
+Active Plans: 4, 6, 
+numDistinctPlans: 1, optPlans: 6 
+Vertex 0, PlanCosts: [P:4, C:137] [P:6, C:125.056] 
+Vertex 1, PlanCosts: [P:4, C:137.005] [P:6, C:133.834] 
+Skipping this rectangle..................
+
+Optimizing Rectangle(n_v = 2): [0.684212, 0.789474] [1, 1] 
+[684 999 ] [789 999 ] 
+[0.684212 1 ] [0.789474 1 ] 
+Active Plans: 4, 6, 
+numDistinctPlans: 2, optPlans: 4 6 
+Vertex 0, PlanCosts: [P:4, C:137.005] [P:6, C:133.834] 
+Vertex 1, PlanCosts: [P:4, C:137.017] [P:6, C:149.524] 
+different plan found while doing FPC.....................
+centreMinCost: 137.009, centreMaxCost: 140.688
+CentrePt PlanCosts: [P:4, C:137.009] [P:6, C:140.688] 
+CentrePointReal (Evaluated): [0.736843 1 ] 
+[736 999 ] pDiffC: 0.0268506
+
+
+Partitioning Rectangle: [0.684212, 0.789474] [1, 1] 
+[684 999 ] [789 999 ] 
+[0.684212 1 ] [0.789474 1 ] 
+Optimizing Rectangle(n_v = 2): [0.684212, 0.736843] [1, 1] 
+[684 999 ] [736 999 ] 
+[0.684212 1 ] [0.736843 1 ] 
+Active Plans: 4, 6, 
+numDistinctPlans: 2, optPlans: 4 6 
+Vertex 0, PlanCosts: [P:4, C:137.005] [P:6, C:133.834] 
+Vertex 1, PlanCosts: [P:4, C:137.009] [P:6, C:140.688] 
+different plan found while doing FPC.....................
+centreMinCost: 137.007, centreMaxCost: 137.024
+CentrePt PlanCosts: [P:4, C:137.007] [P:6, C:137.024] 
+CentrePointReal (Evaluated): [0.710527 1 ] 
+[710 999 ] pDiffC: 0.000123735
+
+Partitioning Vertices: 
+[0 0 ] Plan Costs: [P:1, C:86.2441] [P:3, C:86.4365] [P:4, C:113.049] Min Plan Costs: [P:1, C:86.2441] [P:3, C:86.4365]  Optimized. Threshold = 0.01
+[999 0 ] Plan Costs: [P:1, C:86.2866] [P:3, C:88.2545] [P:4, C:113.07] [P:5, C:89.5571] Min Plan Costs: [P:1, C:86.2866]  Optimized. Threshold = 0.01
+[0 999 ] Plan Costs: [P:1, C:1068.56] [P:3, C:120.127] [P:4, C:135.371] [P:6, C:123.007] Min Plan Costs: [P:3, C:120.127]  Optimized. Threshold = 0.01
+[999 999 ] Plan Costs: [P:1, C:3003.76] [P:3, C:7961.08] [P:4, C:136.751] [P:5, C:195.858] [P:6, C:218.385] Min Plan Costs: [P:4, C:136.751]  Optimized. Threshold = 0.01
+[999 55 ] Plan Costs: [P:1, C:94.5278] [P:5, C:94.5892] Min Plan Costs: [P:1, C:94.5278] [P:5, C:94.5892] Threshold = 0.01
+[999 760 ] Plan Costs: [P:4, C:118.11] [P:5, C:117.104] Min Plan Costs: [P:4, C:118.11] [P:5, C:117.104] Threshold = 0.01
+[78 999 ] Plan Costs: [P:3, C:122.746] [P:6, C:123.902] Min Plan Costs: [P:3, C:122.746] [P:6, C:123.902] Threshold = 0.01
+[710 999 ] Plan Costs: [P:4, C:137.007] [P:6, C:137.024] Min Plan Costs: [P:4, C:137.007] [P:6, C:137.024] Threshold = 0.01
+
+Optimizing vertex [999 55 ] 
+New plan found, plan num: 7
+New optimal plan 7 is not co-optimal. Hence added to CSOP.
+
+different plan found while doing FPC.....................
+pOptimizer_t::Optimize(Edge_t, PlanId_t) invocation # = 9
+In Rectangle_t::NumOptPlans (n_v = 2): [1, 1] [0.0556641, 0.760498] 
+[999 55 ] [999 760 ] 
+[1 0.0556641 ] [1 0.760498 ] 
+Active Plans: 5, 7, 
+numDistinctPlans: 2, optPlans: 5 7 
+Optimizing Rectangle(n_v = 2): [1, 1] [0.0556641, 0.760498] 
+[999 55 ] [999 760 ] 
+[1 0.0556641 ] [1 0.760498 ] 
+Active Plans: 5, 7, 
+numDistinctPlans: 2, optPlans: 5 7 
+Vertex 0, PlanCosts: [P:1, C:94.5278] [P:5, C:94.5892] [P:7, C:91.9147] 
+Vertex 1, PlanCosts: [P:4, C:118.11] [P:5, C:117.104] [P:7, C:1389.35] 
+different plan found while doing FPC.....................
+centreMinCost: 97.1953, centreMaxCost: 184.239
+CentrePt PlanCosts: [P:5, C:97.1953] [P:7, C:184.239] 
+CentrePointReal (Evaluated): [1 0.408081 ] 
+[999 408 ] pDiffC: 0.895552
+
+
+Partitioning Rectangle: [1, 1] [0.0556641, 0.760498] 
+[999 55 ] [999 760 ] 
+[1 0.0556641 ] [1 0.760498 ] 
+Optimizing Rectangle(n_v = 2): [1, 1] [0.0556641, 0.408081] 
+[999 55 ] [999 408 ] 
+[1 0.0556641 ] [1 0.408081 ] 
+Active Plans: 5, 7, 
+numDistinctPlans: 2, optPlans: 5 7 
+Vertex 0, PlanCosts: [P:1, C:94.5278] [P:5, C:94.5892] [P:7, C:91.9147] 
+Vertex 1, PlanCosts: [P:5, C:97.1953] [P:7, C:184.239] 
+different plan found while doing FPC.....................
+centreMinCost: 96.2055, centreMaxCost: 124.211
+CentrePt PlanCosts: [P:5, C:96.2055] [P:7, C:124.211] 
+CentrePointReal (Evaluated): [1 0.231873 ] 
+[999 231 ] pDiffC: 0.291103
+
+
+Partitioning Rectangle: [1, 1] [0.0556641, 0.408081] 
+[999 55 ] [999 408 ] 
+[1 0.0556641 ] [1 0.408081 ] 
+Optimizing Rectangle(n_v = 2): [1, 1] [0.0556641, 0.231873] 
+[999 55 ] [999 231 ] 
+[1 0.0556641 ] [1 0.231873 ] 
+Active Plans: 5, 7, 
+numDistinctPlans: 2, optPlans: 5 7 
+Vertex 0, PlanCosts: [P:1, C:94.5278] [P:5, C:94.5892] [P:7, C:91.9147] 
+Vertex 1, PlanCosts: [P:5, C:96.2055] [P:7, C:124.211] 
+different plan found while doing FPC.....................
+centreMinCost: 96.1365, centreMaxCost: 105.094
+CentrePt PlanCosts: [P:5, C:96.1365] [P:7, C:105.094] 
+CentrePointReal (Evaluated): [1 0.143768 ] 
+[999 143 ] pDiffC: 0.0931746
+
+
+Partitioning Rectangle: [1, 1] [0.0556641, 0.231873] 
+[999 55 ] [999 231 ] 
+[1 0.0556641 ] [1 0.231873 ] 
+Optimizing Rectangle(n_v = 2): [1, 1] [0.0556641, 0.143768] 
+[999 55 ] [999 143 ] 
+[1 0.0556641 ] [1 0.143768 ] 
+Active Plans: 5, 7, 
+numDistinctPlans: 2, optPlans: 5 7 
+Vertex 0, PlanCosts: [P:1, C:94.5278] [P:5, C:94.5892] [P:7, C:91.9147] 
+Vertex 1, PlanCosts: [P:5, C:96.1365] [P:7, C:105.094] 
+different plan found while doing FPC.....................
+centreMinCost: 96.079, centreMaxCost: 97.9021
+CentrePt PlanCosts: [P:5, C:96.079] [P:7, C:97.9021] 
+CentrePointReal (Evaluated): [1 0.0997162 ] 
+[999 99 ] pDiffC: 0.0189751
+
+
+Partitioning Rectangle: [1, 1] [0.0556641, 0.143768] 
+[999 55 ] [999 143 ] 
+[1 0.0556641 ] [1 0.143768 ] 
+Optimizing Rectangle(n_v = 2): [1, 1] [0.0556641, 0.0997162] 
+[999 55 ] [999 99 ] 
+[1 0.0556641 ] [1 0.0997162 ] 
+Active Plans: 5, 7, 
+numDistinctPlans: 2, optPlans: 5 7 
+Vertex 0, PlanCosts: [P:1, C:94.5278] [P:5, C:94.5892] [P:7, C:91.9147] 
+Vertex 1, PlanCosts: [P:5, C:96.079] [P:7, C:97.9021] 
+different plan found while doing FPC.....................
+centreMinCost: 94.8205, centreMaxCost: 96.0307
+CentrePt PlanCosts: [P:5, C:96.0307] [P:7, C:94.8205] 
+CentrePointReal (Evaluated): [1 0.0776901 ] 
+[999 77 ] pDiffC: 0.0127632
+
+
+Partitioning Rectangle: [1, 1] [0.0556641, 0.0997162] 
+[999 55 ] [999 99 ] 
+[1 0.0556641 ] [1 0.0997162 ] 
+Optimizing Rectangle(n_v = 2): [1, 1] [0.0556641, 0.0776901] 
+[999 55 ] [999 77 ] 
+[1 0.0556641 ] [1 0.0776901 ] 
+Active Plans: 5, 7, 
+numDistinctPlans: 1, optPlans: 7 
+Vertex 0, PlanCosts: [P:1, C:94.5278] [P:5, C:94.5892] [P:7, C:91.9147] 
+Vertex 1, PlanCosts: [P:5, C:96.0307] [P:7, C:94.8205] 
+Skipping this rectangle..................
+
+Optimizing Rectangle(n_v = 2): [1, 1] [0.0776901, 0.0997162] 
+[999 77 ] [999 99 ] 
+[1 0.0776901 ] [1 0.0997162 ] 
+Active Plans: 5, 7, 
+numDistinctPlans: 2, optPlans: 5 7 
+Vertex 0, PlanCosts: [P:5, C:96.0307] [P:7, C:94.8205] 
+Vertex 1, PlanCosts: [P:5, C:96.079] [P:7, C:97.9021] 
+different plan found while doing FPC.....................
+centreMinCost: 96.0575, centreMaxCost: 96.3195
+CentrePt PlanCosts: [P:5, C:96.0575] [P:7, C:96.3195] 
+CentrePointReal (Evaluated): [1 0.0887032 ] 
+[999 88 ] pDiffC: 0.00272747
+
+Partitioning Vertices: 
+[0 0 ] Plan Costs: [P:1, C:86.2441] [P:3, C:86.4365] [P:4, C:113.049] Min Plan Costs: [P:1, C:86.2441] [P:3, C:86.4365]  Optimized. Threshold = 0.01
+[999 0 ] Plan Costs: [P:1, C:86.2866] [P:3, C:88.2545] [P:4, C:113.07] [P:5, C:89.5571] [P:7, C:86.5176] Min Plan Costs: [P:1, C:86.2866] [P:7, C:86.5176]  Optimized. Threshold = 0.01
+[0 999 ] Plan Costs: [P:1, C:1068.56] [P:3, C:120.127] [P:4, C:135.371] [P:6, C:123.007] Min Plan Costs: [P:3, C:120.127]  Optimized. Threshold = 0.01
+[999 999 ] Plan Costs: [P:1, C:3003.76] [P:3, C:7961.08] [P:4, C:136.751] [P:5, C:195.858] [P:6, C:218.385] Min Plan Costs: [P:4, C:136.751]  Optimized. Threshold = 0.01
+[999 760 ] Plan Costs: [P:4, C:118.11] [P:5, C:117.104] [P:7, C:1389.35] Min Plan Costs: [P:4, C:118.11] [P:5, C:117.104] Threshold = 0.01
+[78 999 ] Plan Costs: [P:3, C:122.746] [P:6, C:123.902] Min Plan Costs: [P:3, C:122.746] [P:6, C:123.902] Threshold = 0.01
+[710 999 ] Plan Costs: [P:4, C:137.007] [P:6, C:137.024] Min Plan Costs: [P:4, C:137.007] [P:6, C:137.024] Threshold = 0.01
+[999 88 ] Plan Costs: [P:5, C:96.0575] [P:7, C:96.3195] Min Plan Costs: [P:5, C:96.0575] [P:7, C:96.3195] Threshold = 0.01
+
+Optimizing vertex [999 760 ] 
+New plan found, plan num: 8
+New optimal plan 8 is not co-optimal. Hence added to CSOP.
+
+different plan found while doing FPC.....................
+different plan found while doing FPC.....................
+Neighbor pt [999 88 ]  is already equicost point. So no need to search equicost point on this conflict edge.
+
+pOptimizer_t::Optimize(Edge_t, PlanId_t) invocation # = 10
+In Rectangle_t::NumOptPlans (n_v = 2): [1, 1] [0.760498, 1] 
+[999 760 ] [999 999 ] 
+[1 0.760498 ] [1 1 ] 
+Active Plans: 4, 8, 
+numDistinctPlans: 2, optPlans: 4 8 
+Optimizing Rectangle(n_v = 2): [1, 1] [0.760498, 1] 
+[999 760 ] [999 999 ] 
+[1 0.760498 ] [1 1 ] 
+Active Plans: 4, 8, 
+numDistinctPlans: 2, optPlans: 4 8 
+Vertex 0, PlanCosts: [P:4, C:118.11] [P:5, C:117.104] [P:7, C:1389.35] [P:8, C:110.938] 
+Vertex 1, PlanCosts: [P:1, C:3003.76] [P:3, C:7961.08] [P:4, C:136.751] [P:5, C:195.858] [P:6, C:218.385] [P:8, C:184.016] 
+different plan found while doing FPC.....................
+centreMinCost: 123.076, centreMaxCost: 137.475
+CentrePt PlanCosts: [P:4, C:123.076] [P:8, C:137.475] 
+CentrePointReal (Evaluated): [1 0.880249 ] 
+[999 880 ] pDiffC: 0.116993
+
+
+Partitioning Rectangle: [1, 1] [0.760498, 1] 
+[999 760 ] [999 999 ] 
+[1 0.760498 ] [1 1 ] 
+Optimizing Rectangle(n_v = 2): [1, 1] [0.760498, 0.880249] 
+[999 760 ] [999 880 ] 
+[1 0.760498 ] [1 0.880249 ] 
+Active Plans: 4, 8, 
+numDistinctPlans: 2, optPlans: 4 8 
+Vertex 0, PlanCosts: [P:4, C:118.11] [P:5, C:117.104] [P:7, C:1389.35] [P:8, C:110.938] 
+Vertex 1, PlanCosts: [P:4, C:123.076] [P:8, C:137.475] 
+different plan found while doing FPC.....................
+centreMinCost: 119.968, centreMaxCost: 122.03
+CentrePt PlanCosts: [P:4, C:119.968] [P:8, C:122.03] 
+CentrePointReal (Evaluated): [1 0.820374 ] 
+[999 820 ] pDiffC: 0.0171852
+
+
+Partitioning Rectangle: [1, 1] [0.760498, 0.880249] 
+[999 760 ] [999 880 ] 
+[1 0.760498 ] [1 0.880249 ] 
+Optimizing Rectangle(n_v = 2): [1, 1] [0.760498, 0.820374] 
+[999 760 ] [999 820 ] 
+[1 0.760498 ] [1 0.820374 ] 
+Active Plans: 4, 8, 
+numDistinctPlans: 2, optPlans: 4 8 
+Vertex 0, PlanCosts: [P:4, C:118.11] [P:5, C:117.104] [P:7, C:1389.35] [P:8, C:110.938] 
+Vertex 1, PlanCosts: [P:4, C:119.968] [P:8, C:122.03] 
+different plan found while doing FPC.....................
+centreMinCost: 116.097, centreMaxCost: 118.921
+CentrePt PlanCosts: [P:4, C:118.921] [P:8, C:116.097] 
+CentrePointReal (Evaluated): [1 0.790436 ] 
+[999 790 ] pDiffC: 0.0243191
+
+
+Partitioning Rectangle: [1, 1] [0.760498, 0.820374] 
+[999 760 ] [999 820 ] 
+[1 0.760498 ] [1 0.820374 ] 
+Optimizing Rectangle(n_v = 2): [1, 1] [0.760498, 0.790436] 
+[999 760 ] [999 790 ] 
+[1 0.760498 ] [1 0.790436 ] 
+Active Plans: 4, 8, 
+numDistinctPlans: 1, optPlans: 8 
+Vertex 0, PlanCosts: [P:4, C:118.11] [P:5, C:117.104] [P:7, C:1389.35] [P:8, C:110.938] 
+Vertex 1, PlanCosts: [P:4, C:118.921] [P:8, C:116.097] 
+Skipping this rectangle..................
+
+Optimizing Rectangle(n_v = 2): [1, 1] [0.790436, 0.820374] 
+[999 790 ] [999 820 ] 
+[1 0.790436 ] [1 0.820374 ] 
+Active Plans: 4, 8, 
+numDistinctPlans: 2, optPlans: 4 8 
+Vertex 0, PlanCosts: [P:4, C:118.921] [P:8, C:116.097] 
+Vertex 1, PlanCosts: [P:4, C:119.968] [P:8, C:122.03] 
+different plan found while doing FPC.....................
+centreMinCost: 118.905, centreMaxCost: 119.411
+CentrePt PlanCosts: [P:4, C:119.411] [P:8, C:118.905] 
+CentrePointReal (Evaluated): [1 0.805405 ] 
+[999 805 ] pDiffC: 0.00425431
+
+Partitioning Vertices: 
+[0 0 ] Plan Costs: [P:1, C:86.2441] [P:3, C:86.4365] [P:4, C:113.049] Min Plan Costs: [P:1, C:86.2441] [P:3, C:86.4365]  Optimized. Threshold = 0.01
+[999 0 ] Plan Costs: [P:1, C:86.2866] [P:3, C:88.2545] [P:4, C:113.07] [P:5, C:89.5571] [P:7, C:86.5176] Min Plan Costs: [P:1, C:86.2866] [P:7, C:86.5176]  Optimized. Threshold = 0.01
+[0 999 ] Plan Costs: [P:1, C:1068.56] [P:3, C:120.127] [P:4, C:135.371] [P:6, C:123.007] Min Plan Costs: [P:3, C:120.127]  Optimized. Threshold = 0.01
+[999 999 ] Plan Costs: [P:1, C:3003.76] [P:3, C:7961.08] [P:4, C:136.751] [P:5, C:195.858] [P:6, C:218.385] [P:8, C:184.016] Min Plan Costs: [P:4, C:136.751]  Optimized. Threshold = 0.01
+[78 999 ] Plan Costs: [P:3, C:122.746] [P:6, C:123.902] Min Plan Costs: [P:3, C:122.746] [P:6, C:123.902] Threshold = 0.01
+[710 999 ] Plan Costs: [P:4, C:137.007] [P:6, C:137.024] Min Plan Costs: [P:4, C:137.007] [P:6, C:137.024] Threshold = 0.01
+[999 88 ] Plan Costs: [P:5, C:96.0575] [P:7, C:96.3195] [P:8, C:95.9734] Min Plan Costs: [P:5, C:96.0575] [P:7, C:96.3195] [P:8, C:95.9734] Threshold = 0.01
+[999 805 ] Plan Costs: [P:4, C:119.411] [P:8, C:118.905] Min Plan Costs: [P:4, C:119.411] [P:8, C:118.905] Threshold = 0.01
+
+Optimizing vertex [78 999 ] 
+New plan found, plan num: 9
+New Optimal plan 9 of optCost 121.755 is co-optimal with oldMinCost 122.746 & hence not added to CSOP; no further processing of the vertex.
+
+Optimizing vertex [710 999 ] 
+New plan found, plan num: 10
+New optimal plan 10 is not co-optimal. Hence added to CSOP.
+
+different plan found while doing FPC.....................
+different plan found while doing FPC.....................
+pOptimizer_t::Optimize(Edge_t, PlanId_t) invocation # = 11
+In Rectangle_t::NumOptPlans (n_v = 2): [0.710527, 1] [1, 1] 
+[710 999 ] [999 999 ] 
+[0.710527 1 ] [1 1 ] 
+Active Plans: 4, 10, 
+numDistinctPlans: 2, optPlans: 4 10 
+Optimizing Rectangle(n_v = 2): [0.710527, 1] [1, 1] 
+[710 999 ] [999 999 ] 
+[0.710527 1 ] [1 1 ] 
+Active Plans: 4, 10, 
+numDistinctPlans: 2, optPlans: 4 10 
+Vertex 0, PlanCosts: [P:4, C:137.007] [P:6, C:137.024] [P:10, C:130.761] 
+Vertex 1, PlanCosts: [P:1, C:3003.76] [P:3, C:7961.08] [P:4, C:136.751] [P:5, C:195.858] [P:6, C:218.385] [P:8, C:184.016] [P:10, C:181.163] 
+different plan found while doing FPC.....................
+centreMinCost: 137.031, centreMaxCost: 149.348
+CentrePt PlanCosts: [P:4, C:137.031] [P:10, C:149.348] 
+CentrePointReal (Evaluated): [0.855264 1 ] 
+[855 999 ] pDiffC: 0.0898826
+
+
+Partitioning Rectangle: [0.710527, 1] [1, 1] 
+[710 999 ] [999 999 ] 
+[0.710527 1 ] [1 1 ] 
+Optimizing Rectangle(n_v = 2): [0.710527, 0.855264] [1, 1] 
+[710 999 ] [855 999 ] 
+[0.710527 1 ] [0.855264 1 ] 
+Active Plans: 4, 10, 
+numDistinctPlans: 2, optPlans: 4 10 
+Vertex 0, PlanCosts: [P:4, C:137.007] [P:6, C:137.024] [P:10, C:130.761] 
+Vertex 1, PlanCosts: [P:4, C:137.031] [P:10, C:149.348] 
+different plan found while doing FPC.....................
+centreMinCost: 137.015, centreMaxCost: 137.885
+CentrePt PlanCosts: [P:4, C:137.015] [P:10, C:137.885] 
+CentrePointReal (Evaluated): [0.782896 1 ] 
+[782 999 ] pDiffC: 0.00634427
+
+pOptimizer_t::Optimize(Edge_t, PlanId_t) invocation # = 12
+In Rectangle_t::NumOptPlans (n_v = 2): [0.078949, 0.710527] [1, 1] 
+[78 999 ] [710 999 ] 
+[0.078949 1 ] [0.710527 1 ] 
+Active Plans: 6, 10, 
+numDistinctPlans: 2, optPlans: 6 10 
+Optimizing Rectangle(n_v = 2): [0.078949, 0.710527] [1, 1] 
+[78 999 ] [710 999 ] 
+[0.078949 1 ] [0.710527 1 ] 
+Active Plans: 6, 10, 
+numDistinctPlans: 2, optPlans: 6 10 
+Vertex 0, PlanCosts: [P:3, C:122.746] [P:6, C:123.902] [P:10, C:124.079] 
+Vertex 1, PlanCosts: [P:4, C:137.007] [P:6, C:137.024] [P:10, C:130.761] 
+different plan found while doing FPC.....................
+different plan found while doing FPC.....................
+centreMinCost: 119.188, centreMaxCost: 121.415
+CentrePt PlanCosts: [P:6, C:119.188] [P:10, C:121.415] 
+CentrePointReal (Evaluated): [0.394738 1 ] 
+[394 999 ] pDiffC: 0.0186804
+
+
+Partitioning Rectangle: [0.078949, 0.710527] [1, 1] 
+[78 999 ] [710 999 ] 
+[0.078949 1 ] [0.710527 1 ] 
+Optimizing Rectangle(n_v = 2): [0.078949, 0.394738] [1, 1] 
+[78 999 ] [394 999 ] 
+[0.078949 1 ] [0.394738 1 ] 
+Active Plans: 6, 10, 
+numDistinctPlans: 2, optPlans: 6 10 
+Vertex 0, PlanCosts: [P:3, C:122.746] [P:6, C:123.902] [P:10, C:124.079] 
+Vertex 1, PlanCosts: [P:6, C:119.188] [P:10, C:121.415] 
+different plan found while doing FPC.....................
+different plan found while doing FPC.....................
+centreMinCost: 124.074, centreMaxCost: 124.155
+CentrePt PlanCosts: [P:6, C:124.074] [P:10, C:124.155] 
+CentrePointReal (Evaluated): [0.236844 1 ] 
+[236 999 ] pDiffC: 0.000655982
+
+Partitioning Vertices: 
+[0 0 ] Plan Costs: [P:1, C:86.2441] [P:3, C:86.4365] [P:4, C:113.049] Min Plan Costs: [P:1, C:86.2441] [P:3, C:86.4365]  Optimized. Threshold = 0.01
+[999 0 ] Plan Costs: [P:1, C:86.2866] [P:3, C:88.2545] [P:4, C:113.07] [P:5, C:89.5571] [P:7, C:86.5176] Min Plan Costs: [P:1, C:86.2866] [P:7, C:86.5176]  Optimized. Threshold = 0.01
+[0 999 ] Plan Costs: [P:1, C:1068.56] [P:3, C:120.127] [P:4, C:135.371] [P:6, C:123.007] Min Plan Costs: [P:3, C:120.127]  Optimized. Threshold = 0.01
+[999 999 ] Plan Costs: [P:1, C:3003.76] [P:3, C:7961.08] [P:4, C:136.751] [P:5, C:195.858] [P:6, C:218.385] [P:8, C:184.016] [P:10, C:181.163] Min Plan Costs: [P:4, C:136.751]  Optimized. Threshold = 0.01
+[78 999 ] Plan Costs: [P:3, C:122.746] [P:6, C:123.902] [P:10, C:124.079] Min Plan Costs: [P:3, C:122.746] [P:6, C:123.902]  Optimized. Threshold = 0.01
+[999 88 ] Plan Costs: [P:5, C:96.0575] [P:7, C:96.3195] [P:8, C:95.9734] Min Plan Costs: [P:5, C:96.0575] [P:7, C:96.3195] [P:8, C:95.9734] Threshold = 0.01
+[999 805 ] Plan Costs: [P:4, C:119.411] [P:8, C:118.905] Min Plan Costs: [P:4, C:119.411] [P:8, C:118.905] Threshold = 0.01
+[782 999 ] Plan Costs: [P:4, C:137.015] [P:10, C:137.885] Min Plan Costs: [P:4, C:137.015] [P:10, C:137.885] Threshold = 0.01
+[236 999 ] Plan Costs: [P:6, C:124.074] [P:10, C:124.155] Min Plan Costs: [P:6, C:124.074] [P:10, C:124.155] Threshold = 0.01
+
+Optimizing vertex [999 88 ] 
+New plan found, plan num: 11
+New optimal plan 11 is not co-optimal. Hence added to CSOP.
+
+different plan found while doing FPC.....................
+different plan found while doing FPC.....................
+pOptimizer_t::Optimize(Edge_t, PlanId_t) invocation # = 13
+In Rectangle_t::NumOptPlans (n_v = 2): [1, 1] [0, 0.0887032] 
+[999 0 ] [999 88 ] 
+[1 0 ] [1 0.0887032 ] 
+Active Plans: 7, 11, 
+numDistinctPlans: 2, optPlans: 7 11 
+Optimizing Rectangle(n_v = 2): [1, 1] [0, 0.0887032] 
+[999 0 ] [999 88 ] 
+[1 0 ] [1 0.0887032 ] 
+Active Plans: 7, 11, 
+numDistinctPlans: 2, optPlans: 7 11 
+Vertex 0, PlanCosts: [P:1, C:86.2866] [P:3, C:88.2545] [P:4, C:113.07] [P:5, C:89.5571] [P:7, C:86.5176] [P:11, C:89.4147] 
+Vertex 1, PlanCosts: [P:5, C:96.0575] [P:7, C:96.3195] [P:8, C:95.9734] [P:11, C:95.0226] 
+different plan found while doing FPC.....................
+centreMinCost: 90.8066, centreMaxCost: 91.858
+CentrePt PlanCosts: [P:7, C:90.8066] [P:11, C:91.858] 
+CentrePointReal (Evaluated): [1 0.0443516 ] 
+[999 44 ] pDiffC: 0.0115784
+
+
+Partitioning Rectangle: [1, 1] [0, 0.0887032] 
+[999 0 ] [999 88 ] 
+[1 0 ] [1 0.0887032 ] 
+Optimizing Rectangle(n_v = 2): [1, 1] [0, 0.0443516] 
+[999 0 ] [999 44 ] 
+[1 0 ] [1 0.0443516 ] 
+Active Plans: 7, 11, 
+numDistinctPlans: 1, optPlans: 7 
+Vertex 0, PlanCosts: [P:1, C:86.2866] [P:3, C:88.2545] [P:4, C:113.07] [P:5, C:89.5571] [P:7, C:86.5176] [P:11, C:89.4147] 
+Vertex 1, PlanCosts: [P:7, C:90.8066] [P:11, C:91.858] 
+Skipping this rectangle..................
+
+Optimizing Rectangle(n_v = 2): [1, 1] [0.0443516, 0.0887032] 
+[999 44 ] [999 88 ] 
+[1 0.0443516 ] [1 0.0887032 ] 
+Active Plans: 7, 11, 
+numDistinctPlans: 2, optPlans: 7 11 
+Vertex 0, PlanCosts: [P:7, C:90.8066] [P:11, C:91.858] 
+Vertex 1, PlanCosts: [P:5, C:96.0575] [P:7, C:96.3195] [P:8, C:95.9734] [P:11, C:95.0226] 
+different plan found while doing FPC.....................
+centreMinCost: 93.4034, centreMaxCost: 93.4192
+CentrePt PlanCosts: [P:7, C:93.4034] [P:11, C:93.4192] 
+CentrePointReal (Evaluated): [1 0.0665274 ] 
+[999 66 ] pDiffC: 0.000168674
+
+pOptimizer_t::Optimize(Edge_t, PlanId_t) invocation # = 14
+In Rectangle_t::NumOptPlans (n_v = 2): [1, 1] [0.0887032, 0.805405] 
+[999 88 ] [999 805 ] 
+[1 0.0887032 ] [1 0.805405 ] 
+Active Plans: 8, 11, 
+numDistinctPlans: 2, optPlans: 8 11 
+Optimizing Rectangle(n_v = 2): [1, 1] [0.0887032, 0.805405] 
+[999 88 ] [999 805 ] 
+[1 0.0887032 ] [1 0.805405 ] 
+Active Plans: 8, 11, 
+numDistinctPlans: 2, optPlans: 8 11 
+Vertex 0, PlanCosts: [P:5, C:96.0575] [P:7, C:96.3195] [P:8, C:95.9734] [P:11, C:95.0226] 
+Vertex 1, PlanCosts: [P:4, C:119.411] [P:8, C:118.905] [P:11, C:1873.12] 
+different plan found while doing FPC.....................
+different plan found while doing FPC.....................
+centreMinCost: 96.9955, centreMaxCost: 203.783
+CentrePt PlanCosts: [P:8, C:96.9955] [P:11, C:203.783] 
+CentrePointReal (Evaluated): [1 0.447054 ] 
+[999 447 ] pDiffC: 1.10095
+
+
+Partitioning Rectangle: [1, 1] [0.0887032, 0.805405] 
+[999 88 ] [999 805 ] 
+[1 0.0887032 ] [1 0.805405 ] 
+Optimizing Rectangle(n_v = 2): [1, 1] [0.0887032, 0.447054] 
+[999 88 ] [999 447 ] 
+[1 0.0887032 ] [1 0.447054 ] 
+Active Plans: 8, 11, 
+numDistinctPlans: 2, optPlans: 8 11 
+Vertex 0, PlanCosts: [P:5, C:96.0575] [P:7, C:96.3195] [P:8, C:95.9734] [P:11, C:95.0226] 
+Vertex 1, PlanCosts: [P:8, C:96.9955] [P:11, C:203.783] 
+different plan found while doing FPC.....................
+different plan found while doing FPC.....................
+centreMinCost: 96.0987, centreMaxCost: 125.776
+CentrePt PlanCosts: [P:8, C:96.0987] [P:11, C:125.776] 
+CentrePointReal (Evaluated): [1 0.267879 ] 
+[999 267 ] pDiffC: 0.308823
+
+
+Partitioning Rectangle: [1, 1] [0.0887032, 0.447054] 
+[999 88 ] [999 447 ] 
+[1 0.0887032 ] [1 0.447054 ] 
+Optimizing Rectangle(n_v = 2): [1, 1] [0.0887032, 0.267879] 
+[999 88 ] [999 267 ] 
+[1 0.0887032 ] [1 0.267879 ] 
+Active Plans: 8, 11, 
+numDistinctPlans: 2, optPlans: 8 11 
+Vertex 0, PlanCosts: [P:5, C:96.0575] [P:7, C:96.3195] [P:8, C:95.9734] [P:11, C:95.0226] 
+Vertex 1, PlanCosts: [P:8, C:96.0987] [P:11, C:125.776] 
+different plan found while doing FPC.....................
+different plan found while doing FPC.....................
+centreMinCost: 96.0443, centreMaxCost: 106.378
+CentrePt PlanCosts: [P:8, C:96.0443] [P:11, C:106.378] 
+CentrePointReal (Evaluated): [1 0.178291 ] 
+[999 178 ] pDiffC: 0.107595
+
+
+Partitioning Rectangle: [1, 1] [0.0887032, 0.267879] 
+[999 88 ] [999 267 ] 
+[1 0.0887032 ] [1 0.267879 ] 
+Optimizing Rectangle(n_v = 2): [1, 1] [0.0887032, 0.178291] 
+[999 88 ] [999 178 ] 
+[1 0.0887032 ] [1 0.178291 ] 
+Active Plans: 8, 11, 
+numDistinctPlans: 2, optPlans: 8 11 
+Vertex 0, PlanCosts: [P:5, C:96.0575] [P:7, C:96.3195] [P:8, C:95.9734] [P:11, C:95.0226] 
+Vertex 1, PlanCosts: [P:8, C:96.0443] [P:11, C:106.378] 
+different plan found while doing FPC.....................
+different plan found while doing FPC.....................
+centreMinCost: 96.016, centreMaxCost: 99.9778
+CentrePt PlanCosts: [P:8, C:96.016] [P:11, C:99.9778] 
+CentrePointReal (Evaluated): [1 0.133497 ] 
+[999 133 ] pDiffC: 0.041262
+
+
+Partitioning Rectangle: [1, 1] [0.0887032, 0.178291] 
+[999 88 ] [999 178 ] 
+[1 0.0887032 ] [1 0.178291 ] 
+Optimizing Rectangle(n_v = 2): [1, 1] [0.0887032, 0.133497] 
+[999 88 ] [999 133 ] 
+[1 0.0887032 ] [1 0.133497 ] 
+Active Plans: 8, 11, 
+numDistinctPlans: 2, optPlans: 8 11 
+Vertex 0, PlanCosts: [P:5, C:96.0575] [P:7, C:96.3195] [P:8, C:95.9734] [P:11, C:95.0226] 
+Vertex 1, PlanCosts: [P:8, C:96.016] [P:11, C:99.9778] 
+different plan found while doing FPC.....................
+different plan found while doing FPC.....................
+centreMinCost: 95.9983, centreMaxCost: 97.484
+CentrePt PlanCosts: [P:8, C:95.9983] [P:11, C:97.484] 
+CentrePointReal (Evaluated): [1 0.1111 ] 
+[999 111 ] pDiffC: 0.0154758
+
+
+Partitioning Rectangle: [1, 1] [0.0887032, 0.133497] 
+[999 88 ] [999 133 ] 
+[1 0.0887032 ] [1 0.133497 ] 
+Optimizing Rectangle(n_v = 2): [1, 1] [0.0887032, 0.1111] 
+[999 88 ] [999 111 ] 
+[1 0.0887032 ] [1 0.1111 ] 
+Active Plans: 8, 11, 
+numDistinctPlans: 2, optPlans: 8 11 
+Vertex 0, PlanCosts: [P:5, C:96.0575] [P:7, C:96.3195] [P:8, C:95.9734] [P:11, C:95.0226] 
+Vertex 1, PlanCosts: [P:8, C:95.9983] [P:11, C:97.484] 
+different plan found while doing FPC.....................
+different plan found while doing FPC.....................
+centreMinCost: 95.9864, centreMaxCost: 96.2724
+CentrePt PlanCosts: [P:8, C:95.9864] [P:11, C:96.2724] 
+CentrePointReal (Evaluated): [1 0.0999016 ] 
+[999 99 ] pDiffC: 0.00297883
+
+Partitioning Vertices: 
+[0 0 ] Plan Costs: [P:1, C:86.2441] [P:3, C:86.4365] [P:4, C:113.049] Min Plan Costs: [P:1, C:86.2441] [P:3, C:86.4365]  Optimized. Threshold = 0.01
+[999 0 ] Plan Costs: [P:1, C:86.2866] [P:3, C:88.2545] [P:4, C:113.07] [P:5, C:89.5571] [P:7, C:86.5176] [P:11, C:89.4147] Min Plan Costs: [P:1, C:86.2866] [P:7, C:86.5176]  Optimized. Threshold = 0.01
+[0 999 ] Plan Costs: [P:1, C:1068.56] [P:3, C:120.127] [P:4, C:135.371] [P:6, C:123.007] Min Plan Costs: [P:3, C:120.127]  Optimized. Threshold = 0.01
+[999 999 ] Plan Costs: [P:1, C:3003.76] [P:3, C:7961.08] [P:4, C:136.751] [P:5, C:195.858] [P:6, C:218.385] [P:8, C:184.016] [P:10, C:181.163] Min Plan Costs: [P:4, C:136.751]  Optimized. Threshold = 0.01
+[78 999 ] Plan Costs: [P:3, C:122.746] [P:6, C:123.902] [P:10, C:124.079] Min Plan Costs: [P:3, C:122.746] [P:6, C:123.902]  Optimized. Threshold = 0.01
+[999 805 ] Plan Costs: [P:4, C:119.411] [P:8, C:118.905] [P:11, C:1873.12] Min Plan Costs: [P:4, C:119.411] [P:8, C:118.905] Threshold = 0.01
+[782 999 ] Plan Costs: [P:4, C:137.015] [P:10, C:137.885] Min Plan Costs: [P:4, C:137.015] [P:10, C:137.885] Threshold = 0.01
+[236 999 ] Plan Costs: [P:6, C:124.074] [P:10, C:124.155] Min Plan Costs: [P:6, C:124.074] [P:10, C:124.155] Threshold = 0.01
+[999 66 ] Plan Costs: [P:7, C:93.4034] [P:11, C:93.4192] Min Plan Costs: [P:7, C:93.4034] [P:11, C:93.4192] Threshold = 0.01
+[999 99 ] Plan Costs: [P:8, C:95.9864] [P:11, C:96.2724] Min Plan Costs: [P:8, C:95.9864] [P:11, C:96.2724] Threshold = 0.01
+
+Optimizing vertex [999 805 ] 
+New plan found, plan num: 12
+New Optimal plan 12 of optCost 117.847 is co-optimal with oldMinCost 118.905 & hence not added to CSOP; no further processing of the vertex.
+
+Optimizing vertex [782 999 ] 
+New plan found, plan num: 13
+New optimal plan 13 is not co-optimal. Hence added to CSOP.
+
+different plan found while doing FPC.....................
+different plan found while doing FPC.....................
+pOptimizer_t::Optimize(Edge_t, PlanId_t) invocation # = 15
+In Rectangle_t::NumOptPlans (n_v = 2): [0.782896, 1] [1, 1] 
+[782 999 ] [999 999 ] 
+[0.782896 1 ] [1 1 ] 
+Active Plans: 4, 13, 
+numDistinctPlans: 2, optPlans: 4 13 
+Optimizing Rectangle(n_v = 2): [0.782896, 1] [1, 1] 
+[782 999 ] [999 999 ] 
+[0.782896 1 ] [1 1 ] 
+Active Plans: 4, 13, 
+numDistinctPlans: 2, optPlans: 4 13 
+Vertex 0, PlanCosts: [P:4, C:137.015] [P:10, C:137.885] [P:13, C:129.176] 
+Vertex 1, PlanCosts: [P:1, C:3003.76] [P:3, C:7961.08] [P:4, C:136.751] [P:5, C:195.858] [P:6, C:218.385] [P:8, C:184.016] [P:10, C:181.163] [P:13, C:193.781] 
+different plan found while doing FPC.....................
+centreMinCost: 137.043, centreMaxCost: 165.816
+CentrePt PlanCosts: [P:4, C:137.043] [P:13, C:165.816] 
+CentrePointReal (Evaluated): [0.891448 1 ] 
+[891 999 ] pDiffC: 0.209957
+
+
+Partitioning Rectangle: [0.782896, 1] [1, 1] 
+[782 999 ] [999 999 ] 
+[0.782896 1 ] [1 1 ] 
+Optimizing Rectangle(n_v = 2): [0.782896, 0.891448] [1, 1] 
+[782 999 ] [891 999 ] 
+[0.782896 1 ] [0.891448 1 ] 
+Active Plans: 4, 13, 
+numDistinctPlans: 2, optPlans: 4 13 
+Vertex 0, PlanCosts: [P:4, C:137.015] [P:10, C:137.885] [P:13, C:129.176] 
+Vertex 1, PlanCosts: [P:4, C:137.043] [P:13, C:165.816] 
+different plan found while doing FPC.....................
+centreMinCost: 137.026, centreMaxCost: 153.884
+CentrePt PlanCosts: [P:4, C:137.026] [P:13, C:153.884] 
+CentrePointReal (Evaluated): [0.837172 1 ] 
+[837 999 ] pDiffC: 0.123027
+
+
+Partitioning Rectangle: [0.782896, 0.891448] [1, 1] 
+[782 999 ] [891 999 ] 
+[0.782896 1 ] [0.891448 1 ] 
+Optimizing Rectangle(n_v = 2): [0.782896, 0.837172] [1, 1] 
+[782 999 ] [837 999 ] 
+[0.782896 1 ] [0.837172 1 ] 
+Active Plans: 4, 13, 
+numDistinctPlans: 2, optPlans: 4 13 
+Vertex 0, PlanCosts: [P:4, C:137.015] [P:10, C:137.885] [P:13, C:129.176] 
+Vertex 1, PlanCosts: [P:4, C:137.026] [P:13, C:153.884] 
+different plan found while doing FPC.....................
+centreMinCost: 137.02, centreMaxCost: 148.761
+CentrePt PlanCosts: [P:4, C:137.02] [P:13, C:148.761] 
+CentrePointReal (Evaluated): [0.810034 1 ] 
+[810 999 ] pDiffC: 0.0856852
+
+
+Partitioning Rectangle: [0.782896, 0.837172] [1, 1] 
+[782 999 ] [837 999 ] 
+[0.782896 1 ] [0.837172 1 ] 
+Optimizing Rectangle(n_v = 2): [0.782896, 0.810034] [1, 1] 
+[782 999 ] [810 999 ] 
+[0.782896 1 ] [0.810034 1 ] 
+Active Plans: 4, 13, 
+numDistinctPlans: 2, optPlans: 4 13 
+Vertex 0, PlanCosts: [P:4, C:137.015] [P:10, C:137.885] [P:13, C:129.176] 
+Vertex 1, PlanCosts: [P:4, C:137.02] [P:13, C:148.761] 
+different plan found while doing FPC.....................
+centreMinCost: 137.018, centreMaxCost: 146.341
+CentrePt PlanCosts: [P:4, C:137.018] [P:13, C:146.341] 
+CentrePointReal (Evaluated): [0.796465 1 ] 
+[796 999 ] pDiffC: 0.0680471
+
+
+Partitioning Rectangle: [0.782896, 0.810034] [1, 1] 
+[782 999 ] [810 999 ] 
+[0.782896 1 ] [0.810034 1 ] 
+Optimizing Rectangle(n_v = 2): [0.782896, 0.796465] [1, 1] 
+[782 999 ] [796 999 ] 
+[0.782896 1 ] [0.796465 1 ] 
+Active Plans: 4, 13, 
+numDistinctPlans: 2, optPlans: 4 13 
+Vertex 0, PlanCosts: [P:4, C:137.015] [P:10, C:137.885] [P:13, C:129.176] 
+Vertex 1, PlanCosts: [P:4, C:137.018] [P:13, C:146.341] 
+different plan found while doing FPC.....................
+centreMinCost: 137.017, centreMaxCost: 145.185
+CentrePt PlanCosts: [P:4, C:137.017] [P:13, C:145.185] 
+CentrePointReal (Evaluated): [0.78968 1 ] 
+[789 999 ] pDiffC: 0.0596153
+
+
+Partitioning Rectangle: [0.782896, 0.796465] [1, 1] 
+[782 999 ] [796 999 ] 
+[0.782896 1 ] [0.796465 1 ] 
+Optimizing Rectangle(n_v = 2): [0.782896, 0.78968] [1, 1] 
+[782 999 ] [789 999 ] 
+[0.782896 1 ] [0.78968 1 ] 
+Active Plans: 4, 13, 
+numDistinctPlans: 2, optPlans: 4 13 
+Vertex 0, PlanCosts: [P:4, C:137.015] [P:10, C:137.885] [P:13, C:129.176] 
+Vertex 1, PlanCosts: [P:4, C:137.017] [P:13, C:145.185] 
+different plan found while doing FPC.....................
+centreMinCost: 137.016, centreMaxCost: 144.708
+CentrePt PlanCosts: [P:4, C:137.016] [P:13, C:144.708] 
+CentrePointReal (Evaluated): [0.786288 1 ] 
+[786 999 ] pDiffC: 0.0561359
+
+
+Partitioning Rectangle: [0.782896, 0.78968] [1, 1] 
+[782 999 ] [789 999 ] 
+[0.782896 1 ] [0.78968 1 ] 
+Optimizing Rectangle(n_v = 2): [0.782896, 0.786288] [1, 1] 
+[782 999 ] [786 999 ] 
+[0.782896 1 ] [0.786288 1 ] 
+Active Plans: 4, 13, 
+numDistinctPlans: 2, optPlans: 4 13 
+Vertex 0, PlanCosts: [P:4, C:137.015] [P:10, C:137.885] [P:13, C:129.176] 
+Vertex 1, PlanCosts: [P:4, C:137.016] [P:13, C:144.708] 
+different plan found while doing FPC.....................
+centreMinCost: 137.016, centreMaxCost: 144.393
+CentrePt PlanCosts: [P:4, C:137.016] [P:13, C:144.393] 
+CentrePointReal (Evaluated): [0.784592 1 ] 
+[784 999 ] pDiffC: 0.0538436
+
+
+Partitioning Rectangle: [0.782896, 0.786288] [1, 1] 
+[782 999 ] [786 999 ] 
+[0.782896 1 ] [0.786288 1 ] 
+Optimizing Rectangle(n_v = 2): [0.782896, 0.784592] [1, 1] 
+[782 999 ] [784 999 ] 
+[0.782896 1 ] [0.784592 1 ] 
+Active Plans: 4, 13, 
+numDistinctPlans: 2, optPlans: 4 13 
+Vertex 0, PlanCosts: [P:4, C:137.015] [P:10, C:137.885] [P:13, C:129.176] 
+Vertex 1, PlanCosts: [P:4, C:137.016] [P:13, C:144.393] 
+different plan found while doing FPC.....................
+centreMinCost: 137.016, centreMaxCost: 144.237
+CentrePt PlanCosts: [P:4, C:137.016] [P:13, C:144.237] 
+CentrePointReal (Evaluated): [0.783744 1 ] 
+[783 999 ] pDiffC: 0.0527055
+
+
+Partitioning Rectangle: [0.782896, 0.784592] [1, 1] 
+[782 999 ] [784 999 ] 
+[0.782896 1 ] [0.784592 1 ] 
+Optimizing Rectangle(n_v = 2): [0.782896, 0.783744] [1, 1] 
+[782 999 ] [783 999 ] 
+[0.782896 1 ] [0.783744 1 ] 
+Active Plans: 4, 13, 
+numDistinctPlans: 2, optPlans: 4 13 
+Vertex 0, PlanCosts: [P:4, C:137.015] [P:10, C:137.885] [P:13, C:129.176] 
+Vertex 1, PlanCosts: [P:4, C:137.016] [P:13, C:144.237] 
+different plan found while doing FPC.....................
+centreMinCost: 137.016, centreMaxCost: 144.237
+CentrePt PlanCosts: [P:4, C:137.016] [P:13, C:144.237] 
+CentrePointReal (Evaluated): [0.783744 1 ] 
+[783 999 ] pDiffC: 0.0527055
+
+
+{In AdjustCentrePoint} centreMinCostTmp: 129.176, centreMaxCostTmp: 137.015
+{In AdjustCentrePoint} centreMinCostTmp: 137.016, centreMaxCostTmp: 144.237
+New adjusted centerpoint = [783 999 ] 
+UpdateMinCostPlanList: [783 999 ] diffThreshold = 0.01; newThreshold = 0.0527055
+
+Partitioning Vertices: 
+[0 0 ] Plan Costs: [P:1, C:86.2441] [P:3, C:86.4365] [P:4, C:113.049] Min Plan Costs: [P:1, C:86.2441] [P:3, C:86.4365]  Optimized. Threshold = 0.01
+[999 0 ] Plan Costs: [P:1, C:86.2866] [P:3, C:88.2545] [P:4, C:113.07] [P:5, C:89.5571] [P:7, C:86.5176] [P:11, C:89.4147] Min Plan Costs: [P:1, C:86.2866] [P:7, C:86.5176]  Optimized. Threshold = 0.01
+[0 999 ] Plan Costs: [P:1, C:1068.56] [P:3, C:120.127] [P:4, C:135.371] [P:6, C:123.007] Min Plan Costs: [P:3, C:120.127]  Optimized. Threshold = 0.01
+[999 999 ] Plan Costs: [P:1, C:3003.76] [P:3, C:7961.08] [P:4, C:136.751] [P:5, C:195.858] [P:6, C:218.385] [P:8, C:184.016] [P:10, C:181.163] [P:13, C:193.781] Min Plan Costs: [P:4, C:136.751]  Optimized. Threshold = 0.01
+[78 999 ] Plan Costs: [P:3, C:122.746] [P:6, C:123.902] [P:10, C:124.079] Min Plan Costs: [P:3, C:122.746] [P:6, C:123.902]  Optimized. Threshold = 0.01
+[999 805 ] Plan Costs: [P:4, C:119.411] [P:8, C:118.905] [P:11, C:1873.12] Min Plan Costs: [P:4, C:119.411] [P:8, C:118.905]  Optimized. Threshold = 0.01
+[236 999 ] Plan Costs: [P:6, C:124.074] [P:10, C:124.155] [P:13, C:124.326] Min Plan Costs: [P:6, C:124.074] [P:10, C:124.155] [P:13, C:124.326] Threshold = 0.01
+[999 66 ] Plan Costs: [P:7, C:93.4034] [P:11, C:93.4192] Min Plan Costs: [P:7, C:93.4034] [P:11, C:93.4192] Threshold = 0.01
+[999 99 ] Plan Costs: [P:8, C:95.9864] [P:11, C:96.2724] Min Plan Costs: [P:8, C:95.9864] [P:11, C:96.2724] Threshold = 0.01
+[783 999 ] Plan Costs: [P:4, C:137.016] [P:13, C:144.237] Min Plan Costs: [P:4, C:137.016] [P:13, C:144.237] Threshold = 0.0527055
+
+Optimizing vertex [236 999 ] 
+New plan found, plan num: 14
+New optimal plan 14 is not co-optimal. Hence added to CSOP.
+
+different plan found while doing FPC.....................
+different plan found while doing FPC.....................
+pOptimizer_t::Optimize(Edge_t, PlanId_t) invocation # = 16
+In Rectangle_t::NumOptPlans (n_v = 2): [0.236844, 0.783744] [1, 1] 
+[236 999 ] [783 999 ] 
+[0.236844 1 ] [0.783744 1 ] 
+Active Plans: 13, 14, 
+numDistinctPlans: 2, optPlans: 13 14 
+Optimizing Rectangle(n_v = 2): [0.236844, 0.783744] [1, 1] 
+[236 999 ] [783 999 ] 
+[0.236844 1 ] [0.783744 1 ] 
+Active Plans: 13, 14, 
+numDistinctPlans: 2, optPlans: 13 14 
+Vertex 0, PlanCosts: [P:6, C:124.074] [P:10, C:124.155] [P:13, C:124.326] [P:14, C:122.436] 
+Vertex 1, PlanCosts: [P:4, C:137.016] [P:13, C:144.237] [P:14, C:148.373] 
+different plan found while doing FPC.....................
+different plan found while doing FPC.....................
+centreMinCost: 121.75, centreMaxCost: 121.959
+CentrePt PlanCosts: [P:13, C:121.75] [P:14, C:121.959] 
+CentrePointReal (Evaluated): [0.510294 1 ] 
+[510 999 ] pDiffC: 0.00171714
+
+Partitioning Vertices: 
+[0 0 ] Plan Costs: [P:1, C:86.2441] [P:3, C:86.4365] [P:4, C:113.049] Min Plan Costs: [P:1, C:86.2441] [P:3, C:86.4365]  Optimized. Threshold = 0.01
+[999 0 ] Plan Costs: [P:1, C:86.2866] [P:3, C:88.2545] [P:4, C:113.07] [P:5, C:89.5571] [P:7, C:86.5176] [P:11, C:89.4147] Min Plan Costs: [P:1, C:86.2866] [P:7, C:86.5176]  Optimized. Threshold = 0.01
+[0 999 ] Plan Costs: [P:1, C:1068.56] [P:3, C:120.127] [P:4, C:135.371] [P:6, C:123.007] Min Plan Costs: [P:3, C:120.127]  Optimized. Threshold = 0.01
+[999 999 ] Plan Costs: [P:1, C:3003.76] [P:3, C:7961.08] [P:4, C:136.751] [P:5, C:195.858] [P:6, C:218.385] [P:8, C:184.016] [P:10, C:181.163] [P:13, C:193.781] Min Plan Costs: [P:4, C:136.751]  Optimized. Threshold = 0.01
+[78 999 ] Plan Costs: [P:3, C:122.746] [P:6, C:123.902] [P:10, C:124.079] [P:14, C:123.902] Min Plan Costs: [P:3, C:122.746] [P:6, C:123.902] [P:14, C:123.902]  Optimized. Threshold = 0.01
+[999 805 ] Plan Costs: [P:4, C:119.411] [P:8, C:118.905] [P:11, C:1873.12] Min Plan Costs: [P:4, C:119.411] [P:8, C:118.905]  Optimized. Threshold = 0.01
+[999 66 ] Plan Costs: [P:7, C:93.4034] [P:11, C:93.4192] Min Plan Costs: [P:7, C:93.4034] [P:11, C:93.4192] Threshold = 0.01
+[999 99 ] Plan Costs: [P:8, C:95.9864] [P:11, C:96.2724] Min Plan Costs: [P:8, C:95.9864] [P:11, C:96.2724] Threshold = 0.01
+[783 999 ] Plan Costs: [P:4, C:137.016] [P:13, C:144.237] [P:14, C:148.373] Min Plan Costs: [P:4, C:137.016] [P:13, C:144.237] Threshold = 0.0527055
+[510 999 ] Plan Costs: [P:13, C:121.75] [P:14, C:121.959] Min Plan Costs: [P:13, C:121.75] [P:14, C:121.959] Threshold = 0.01
+
+Optimizing vertex [999 66 ] 
+$$$$$$$$$ Error: FPC Error. $$$$$$$$$$$
+New Optimal plan 7 is already in CSOP. So, no further processing as is a vertex of the final cost polytope.
+
+Optimizing vertex [999 99 ] 
+$$$$$$$$$ Error: FPC Error. $$$$$$$$$$$
+New Optimal plan 11 is already in CSOP. So, no further processing as is a vertex of the final cost polytope.
+
+Optimizing vertex [783 999 ] 
+$$$$$$$$$ Error: FPC Error. $$$$$$$$$$$
+New Optimal plan 13 is already in CSOP. So, no further processing as is a vertex of the final cost polytope.
+
+Optimizing vertex [510 999 ] 
+New plan found, plan num: 15
+New Optimal plan 15 of optCost 121.714 is co-optimal with oldMinCost 121.75 & hence not added to CSOP; no further processing of the vertex.
+
+
+Final partitioning vertices [Num = 10]
+Partitioning Vertices: 
+[0 0 ] Plan Costs: [P:1, C:86.2441] [P:3, C:86.4365] [P:4, C:113.049] Min Plan Costs: [P:1, C:86.2441] [P:3, C:86.4365]  Optimized. Threshold = 0.01
+[999 0 ] Plan Costs: [P:1, C:86.2866] [P:3, C:88.2545] [P:4, C:113.07] [P:5, C:89.5571] [P:7, C:86.5176] [P:11, C:89.4147] Min Plan Costs: [P:1, C:86.2866] [P:7, C:86.5176]  Optimized. Threshold = 0.01
+[0 999 ] Plan Costs: [P:1, C:1068.56] [P:3, C:120.127] [P:4, C:135.371] [P:6, C:123.007] Min Plan Costs: [P:3, C:120.127]  Optimized. Threshold = 0.01
+[999 999 ] Plan Costs: [P:1, C:3003.76] [P:3, C:7961.08] [P:4, C:136.751] [P:5, C:195.858] [P:6, C:218.385] [P:8, C:184.016] [P:10, C:181.163] [P:13, C:193.781] Min Plan Costs: [P:4, C:136.751]  Optimized. Threshold = 0.01
+[78 999 ] Plan Costs: [P:3, C:122.746] [P:6, C:123.902] [P:10, C:124.079] [P:14, C:123.902] Min Plan Costs: [P:3, C:122.746] [P:6, C:123.902] [P:14, C:123.902]  Optimized. Threshold = 0.01
+[999 805 ] Plan Costs: [P:4, C:119.411] [P:8, C:118.905] [P:11, C:1873.12] Min Plan Costs: [P:4, C:119.411] [P:8, C:118.905]  Optimized. Threshold = 0.01
+[999 66 ] Plan Costs: [P:7, C:93.4034] [P:11, C:93.4192] Min Plan Costs: [P:7, C:93.4034] [P:11, C:93.4192]  Optimized. Threshold = 0.01
+[999 99 ] Plan Costs: [P:8, C:95.9864] [P:11, C:96.2724] Min Plan Costs: [P:8, C:95.9864] [P:11, C:96.2724]  Optimized. Threshold = 0.01
+[783 999 ] Plan Costs: [P:4, C:137.016] [P:13, C:144.237] [P:14, C:148.373] Min Plan Costs: [P:4, C:137.016] [P:13, C:144.237]  Optimized. Threshold = 0.0527055
+[510 999 ] Plan Costs: [P:13, C:121.75] [P:14, C:121.959] Min Plan Costs: [P:13, C:121.75] [P:14, C:121.959]  Optimized. Threshold = 0.01
+
+
+Final POSP [Num = 15, fDash = 11]
+010011011111111
+NumOptCalls: 18.
+NumEvalCalls: 244
+
+1 regions found.
+Region 1 has no any common plans. So all plans are = 1, 3, 4, 6, 7, 8, 11, 13, 14, 
+Vertices are :
+[0 999 ] [78 999 ] [510 999 ] [783 999 ] [999 999 ] [999 805 ] [999 99 ] [999 66 ] [999 0 ] [0 0 ] 
+
+1 times equicost point couldn't find in small rectangle.
+1 times equicost point couldn't find in big rectangle.
+9 plans are in CSOP.
+AniPQO finished successfully.
+RAM currently used in GBs = 2.39216
+Time taken by Anipqo to finish : 22.553 secs.

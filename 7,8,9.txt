@@ -1,0 +1,153 @@
+Microsoft Windows [Version 6.1.7601]
+Copyright (c) 2009 Microsoft Corporation.  All rights reserved.
+
+C:\Users\Chetas>e:
+
+E:\>cd DSLProjects
+
+E:\DSLProjects>cd Anipqo_Aru
+
+E:\DSLProjects\Anipqo_Aru>cd ..
+
+E:\DSLProjects>cd Anipqo_Chetas
+
+E:\DSLProjects\Anipqo_Chetas>script_release_exp.bat
+
+E:\DSLProjects\Anipqo_Chetas>cd Debug
+
+E:\DSLProjects\Anipqo_Chetas\Debug>Anipqo_Chetas.exe 2 Q7_100_uni 100 0.05 Q7 release
+RAM currently used in GBs = 1.48715
+
+Optimizing all vertices.
+1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 5
+3, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100,
+
+Time taken to optimize all points: 1398.38 secs.
+Plan diagram has 14 plans.
+Done.
+Starting Anipqo.
+AniPQO finished successfully for threshold = 0.01
+AniPQO finished successfully for threshold = 0.05
+AniPQO finished successfully for threshold = 0.1
+AniPQO finished successfully for threshold = 0.2
+
+E:\DSLProjects\Anipqo_Chetas\Debug>echo ************************************************************************
+************************************************************************
+
+E:\DSLProjects\Anipqo_Chetas\Debug>echo ************************************************************************
+************************************************************************
+
+E:\DSLProjects\Anipqo_Chetas\Debug>echo ************************************************************************
+************************************************************************
+
+E:\DSLProjects\Anipqo_Chetas\Debug>Anipqo_Chetas.exe 2 Q8_100_uni 100 0.05 Q8 release
+RAM currently used in GBs = 1.55258
+
+Optimizing all vertices.
+1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 5
+3, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100,
+
+Time taken to optimize all points: 2677.67 secs.
+Plan diagram has 37 plans.
+Done.
+Starting Anipqo.
+AniPQO finished successfully for threshold = 0.01
+AniPQO finished successfully for threshold = 0.05
+AniPQO finished successfully for threshold = 0.1
+AniPQO finished successfully for threshold = 0.2
+
+E:\DSLProjects\Anipqo_Chetas\Debug>echo ************************************************************************
+************************************************************************
+
+E:\DSLProjects\Anipqo_Chetas\Debug>echo ************************************************************************
+************************************************************************
+
+E:\DSLProjects\Anipqo_Chetas\Debug>echo ************************************************************************
+************************************************************************
+
+E:\DSLProjects\Anipqo_Chetas\Debug>Anipqo_Chetas.exe 2 Q9_100_uni 100 0.05 Q9 release
+RAM currently used in GBs = 1.57204
+
+Optimizing all vertices.
+1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 5
+3, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100,
+
+Time taken to optimize all points: 3928.25 secs.
+Plan diagram has 48 plans.
+Done.
+Starting Anipqo.
+AniPQO finished successfully for threshold = 0.01
+AniPQO finished successfully for threshold = 0.05
+AniPQO finished successfully for threshold = 0.1
+AniPQO finished successfully for threshold = 0.2
+
+E:\DSLProjects\Anipqo_Chetas\Debug>echo ************************************************************************
+************************************************************************
+
+E:\DSLProjects\Anipqo_Chetas\Debug>echo ************************************************************************
+************************************************************************
+
+E:\DSLProjects\Anipqo_Chetas\Debug>echo ************************************************************************
+************************************************************************
+
+E:\DSLProjects\Anipqo_Chetas\Debug>Anipqo_Chetas.exe 2 Q7_100_exp 100 0.05 Q7 release
+RAM currently used in GBs = 1.52773
+
+Optimizing all vertices.
+1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 5
+3, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100,
+
+Time taken to optimize all points: 1345.59 secs.
+Plan diagram has 44 plans.
+Done.
+Starting Anipqo.
+AniPQO finished successfully for threshold = 0.01
+AniPQO finished successfully for threshold = 0.05
+AniPQO finished successfully for threshold = 0.1
+AniPQO finished successfully for threshold = 0.2
+
+E:\DSLProjects\Anipqo_Chetas\Debug>echo ************************************************************************
+************************************************************************
+
+E:\DSLProjects\Anipqo_Chetas\Debug>echo ************************************************************************
+************************************************************************
+
+E:\DSLProjects\Anipqo_Chetas\Debug>echo ************************************************************************
+************************************************************************
+
+E:\DSLProjects\Anipqo_Chetas\Debug>Anipqo_Chetas.exe 2 Q8_100_exp 100 0.05 Q8 release
+RAM currently used in GBs = 1.58912
+
+Optimizing all vertices.
+1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 5
+3, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100,
+
+Time taken to optimize all points: 2614.99 secs.
+Plan diagram has 157 plans.
+Done.
+Starting Anipqo.
+AniPQO finished successfully for threshold = 0.01
+AniPQO finished successfully for threshold = 0.05
+AniPQO finished successfully for threshold = 0.1
+AniPQO finished successfully for threshold = 0.2
+
+E:\DSLProjects\Anipqo_Chetas\Debug>echo ************************************************************************
+************************************************************************
+
+E:\DSLProjects\Anipqo_Chetas\Debug>echo ************************************************************************
+************************************************************************
+
+E:\DSLProjects\Anipqo_Chetas\Debug>echo ************************************************************************
+************************************************************************
+
+E:\DSLProjects\Anipqo_Chetas\Debug>Anipqo_Chetas.exe 2 Q9_100_exp 100 0.05 Q9 release
+RAM currently used in GBs = 1.61695
+
+Optimizing all vertices.
+1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 5
+3, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100,
+
+Time taken to optimize all points: 4025.4 secs.
+Plan diagram has 178 plans.
+Done.
+Starting Anipqo.
