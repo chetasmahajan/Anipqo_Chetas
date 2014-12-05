@@ -73,10 +73,10 @@ int main(int argc, char *argv[]) {
 
 	int argc1 = 9;
 	char *argv1[] = {"", "pqo", "singleDAG", "noCostLimit", "printTrace", "noVerify", (char*) par.c_str(), "0", (char*) selConst.c_str(), (char*) resolution.c_str(), (char*) threshold.c_str(), (char*) query.c_str(), (char*) mode.c_str()};
-	MEMORYSTATUSEX status;
-	status.dwLength = sizeof(status);
-	GlobalMemoryStatusEx(&status);
-	cout<<"RAM currently used in GBs = "<<(float) (status.ullTotalPhys - status.ullAvailPhys) / (1024 * 1024 * 1024)<<endl<<endl;
+//	MEMORYSTATUSEX status;
+//	status.dwLength = sizeof(status);
+//	GlobalMemoryStatusEx(&status);
+//	cout<<"RAM currently used in GBs = "<<(float) (status.ullTotalPhys - status.ullAvailPhys) / (1024 * 1024 * 1024)<<endl<<endl;
 	Nipqo_t::PQO(argc1, argv1);
 	return 0;
 }

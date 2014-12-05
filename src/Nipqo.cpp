@@ -860,10 +860,10 @@ void pOptimizer_t::OptimizeForMethodTwo(void)
 	cout<<"AniPQO finished successfully.\n";
 
 	//Chetas- Get used ram size.***
-	MEMORYSTATUSEX status;
-	status.dwLength = sizeof(status);
-	GlobalMemoryStatusEx(&status);
-	cout<<"RAM currently used in GBs = "<<(float) (status.ullTotalPhys - status.ullAvailPhys) / (1024 * 1024 * 1024);
+//	MEMORYSTATUSEX status;
+//	status.dwLength = sizeof(status);
+//	GlobalMemoryStatusEx(&status);
+//	cout<<"RAM currently used in GBs = "<<(float) (status.ullTotalPhys - status.ullAvailPhys) / (1024 * 1024 * 1024);
 	//********
 
 	delete planFlags;
